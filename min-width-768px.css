@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .menu-element {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+  }
+  .menu-element:hover {
+    background-color:#272727;
+  }
+  .menu-element a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+  }
+  .menu-icon {
+    display: none;
+  } 
+  .menu-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

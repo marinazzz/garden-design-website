@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Hagedesign Oslo</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="min-width-768px.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -12,8 +13,12 @@
             <a href="tlf:45511111" class="phone-top">45511111</a>
         </div> 
          <nav id="menu">
-             <ul id="menu-list">
-                <a href="#menu" class="menu-icon"></a> <!--Hamburger menu-->
+             <div class="menu-icon">
+                 <div class="line"></div>
+                 <div class="line"></div>
+                 <div class="line"></div>
+             </div>
+             <ul class="menu-list opened-list">
                 <li class="menu-element">
                      <a href="home">Home</a> <!--Logo icon on left side instead of home button-->
                  </li>
@@ -22,12 +27,12 @@
                  </li>
                  <li class="menu-element">
                      <a href="tjenester">Våre tjenester</a> <!--Dropdown menu for services-->
-                     <ul class="drop-menu">
+                     <!--<ul class="drop-menu">
                          <li class="drop-menu-el"><a href="hagedesign">hagedesign</a></li>
                          <li class="drop-menu-el"><a href="hagekonsultasjon">hagekonsultasjon</a></li>
                          <li class="drop-menu-el"><a href="hageskise">hageskise</a></li>
                          <li class="drop-menu-el"><a href="hagerådgiving">hagerådgiving</a></li>
-                     </ul>
+                     </ul>-->
                  </li>             
                  <li class="menu-element">
                      <a href="blogg">Blogg</a> <!--Dropdown menu for blog posts?-->
@@ -40,8 +45,12 @@
                  </li>             
              </ul>
          </nav>
-         <!--main img beneath menu-->
+         <div class="main-img"></div>
+         <img src="https://us.123rf.com/450wm/volokhatiuk/volokhatiuk1303/volokhatiuk130300200/18265340-jard%C3%ADn-camino-de-piedra-con-la-hierba-que-crece-entre-las-piedras.jpg?ver=6" class="home-image"alt="Garden">
          <h1>Profesjonell hagehjelp</h1> <!--company's slogan-->
+        </div>
+         <!--main img beneath menu-->
+         
      </header>
      <main>
          <section id="services">
@@ -63,6 +72,8 @@
 		     <a href="https://github.com/marinazzz">github.com/marinazzz</a>
 	     </p>
      </footer>
-     <script src="JS/javascript.js"></script>   
+     <script src="JS/javascript.js"></script>
+     <script src="nav-js.js"></script>
+
 </body>
 </html>
