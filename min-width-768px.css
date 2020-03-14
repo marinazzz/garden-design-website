@@ -1,25 +1,35 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    height: auto;
+  }
+  .menu-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   .menu-element {
+    display: block;
     list-style-type: none;
-    display: inline-block;
-    padding: 20px;
+    padding: 10px 0 10px 0;
   }
   .menu-element:hover {
     background-color:#272727;
   }
   .menu-element a {
-    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-decoration: solid;
     text-transform: uppercase;
-    color: whitesmoke;
+    display: block;
+  }
+  .menu-element a:active {
+    color:black;
   }
   .menu-icon {
     display: none;
   } 
-  .menu-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
 }
