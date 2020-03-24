@@ -1,4 +1,4 @@
-let mainNav = document.getElementsByClassName(".menu");
+let mainNav = document.getElementById("menu");
 
 let navBarToggle = document.querySelector(".bottom-header__toggle");
 
