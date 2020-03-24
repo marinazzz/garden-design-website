@@ -41,11 +41,11 @@ body {
   padding: 1rem;
 }
 
-.bottom-header__logo {
+/* .bottom-header__logo { 
   width: 25%;
   background-color: hotpink;
   height: 40px;
-}
+}*/
 
 .bottom-header__toggle {
   box-sizing: border-box;
