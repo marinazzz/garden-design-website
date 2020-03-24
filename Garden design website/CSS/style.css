@@ -10,7 +10,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
+/* CSS variables*/
+:root {
+  /*header*/
+  --header-bg-color: #4daa57;
+  --header-top-bg-color: #252525;
+  --header-toggle-color: #fff;
+}
 /* TOP HEADER */
 
 .top-header,
@@ -19,15 +25,15 @@ body {
 }
 
 .top-header {
-  justify-content: space-evenly;
-  background-color: #252525;
-  padding: 1rem 0;
+  padding: 1rem;
+  justify-content: space-around;
+  background-color: var(--header-top-bg-color);
 }
 
 .top-header__item {
   color: white;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 
@@ -36,9 +42,9 @@ body {
 .bottom-header {
   position: relative;
   justify-content: space-between;
-  align-items: center;
-  background-color: #6CBE03;
-  padding: 1rem;
+  align-items: flex-end;
+  background-color: var(--header-bg-color);
+  padding: 0 1rem;
 }
 
 /* .bottom-header__logo { 
@@ -46,6 +52,9 @@ body {
   background-color: hotpink;
   height: 40px;
 }*/
+.logo {
+  max-height: 9rem;
+}
 
 .bottom-header__toggle {
   box-sizing: border-box;
@@ -55,7 +64,9 @@ body {
   font-size: 3rem;
   line-height: 0;
   padding: 0.5rem;
-  color: #fff;
+  color: var(--header-toggle-color);
+  position: relative;
+  z-index: 100;
 }
 
 .fa-phone, .fa-envelope {
@@ -67,11 +78,11 @@ body {
 
 #menu {
   position: absolute;
-  top: 6rem;
+  top: 9rem;
   left: 0;
   width: 100%;
   padding-top: 1rem;
-  background-color: #6CBE03;
+  background-color: var(--header-bg-color);
   z-index: 20;
 }
 
