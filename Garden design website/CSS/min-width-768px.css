@@ -8,7 +8,7 @@
 
   .bottom-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -31,6 +31,7 @@
     position: static;
     padding: 0;
     top: 0;
+    flex: 0 1 45rem;
   }
   
   .menu__list {
