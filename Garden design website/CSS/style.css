@@ -20,13 +20,6 @@ body {
   --header-toggle-color: #528C36;
 }
 
-.header--dark-green {
-  --header-bg-color: #528C36;
-  --header-link-color: black;
-  --header-menu-link: #fff;
-  --header-toggle-color: #528C36;
-}
-
 /*main style*/
 .container__menu--small {
   display: flex;
@@ -152,11 +145,11 @@ body {
   position: relative;
 }
 
-.main-photo-img {
+.main-photo__item {
    width: 100%;
 }
 
-.main-photo-title {
+.main-photo__titlegit {
   position: absolute;
   bottom: 1rem;
   left: 20rem;
