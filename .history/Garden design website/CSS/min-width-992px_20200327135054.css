@@ -8,7 +8,7 @@
     }
     
     .container__item {
-       /* padding-left: 10rem;*/
+        padding-left: 10rem;
     }
 
     .container__item-bottom {
@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 1440px) {
     .container__item {
-        /* padding-left: 22rem; */
+        padding-left: 22rem;
     }
 }
 
