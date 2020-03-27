@@ -1,6 +1,6 @@
 let mainNav = document.getElementById("menu");
 
-let navBarToggle = document.querySelector(".menu__toggle");
+let navBarToggle = document.querySelector(".bottom-header__toggle");
 
 navBarToggle.addEventListener("click", function () {
 
