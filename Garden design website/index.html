@@ -10,40 +10,45 @@
 </head>
 <body>
     <header>
-        <div class="top-header">
-            <a href="mailto:info@prohage.no" 
-               class ="top-header__item"><i class="far fa-envelope"></i>info@prohage.no</a>
-            <a href="tlf:45511111" 
-               class="top-header__item"><i class="fas fa-phone"></i>45511111</a>
+        <div class="container__menu--small container__menu "> <!--grid container-->
+            <div class="container__logo"> <!--1.column--> 
+                <img class="logo"src="images/prohage black.png" alt="Prohage logo">
+            </div>
+            <div class="container__items--small container__items"> <!--2.column-->
+                <div class="container__item"> <!--1.row-->
+                     <a href="mailto:info@prohage.no" 
+                         class ="container__item-txt"><i class="far fa-envelope"></i>info@prohage.no</a>
+                     <a href="tlf:45511111" 
+                         class="container__item-txt"><i class="fas fa-phone"></i>45511111</a>
+                </div>
+               <div class="container__item-bottom"> <!--2.row-->
+                   <button class="menu__toggle">
+                       <i class="fas fa-bars"></i>
+                   </button>
+                   <nav id="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="home">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#services">Våre tjenester</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#gallery">Galleri</a>
+                            </li>             
+                            <li class="menu__item">
+                                <a class="menu__link" href="#about">Om oss</a> 
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#blog">Blogg</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="kontakt">Kontakt</a> 
+                            </li>             
+                       </ul>
+                   </nav>  
+               </div>
         </div>
-        <div class="bottom-header">
-            <img class="logo"src="images/prohage smaller.png" alt="Prohage logo">
-            <button class="bottom-header__toggle">
-                <i class="fas fa-bars"></i>
-            </button> 
-            <nav id="menu">
-                <ul class="menu__list">
-                   <li class="menu__item">
-                      <a class="menu__link" href="home">Home</a>
-                    </li>
-                   <li class="menu__item">
-                      <a class="menu__link" href="#services">Våre tjenester</a>
-                    </li>
-                   <li class="menu__item">
-                      <a class="menu__link" href="#gallery">Galleri</a>
-                    </li>             
-                   <li class="menu__item">
-                      <a class="menu__link" href="#about">Om oss</a> 
-                    </li>
-                   <li class="menu__item">
-                      <a class="menu__link" href="#blog">Blogg</a>
-                    </li>
-                   <li class="menu__item">
-                      <a class="menu__link" href="kontakt">Kontakt</a> 
-                    </li>             
-                </ul>
-            </nav>
-         </div>   
         <section class="main-photo">
             <img class="main-photo-img"
                  src="https://us.123rf.com/450wm/volokhatiuk/volokhatiuk1303/volokhatiuk130300200/18265340-jard%C3%ADn-camino-de-piedra-con-la-hierba-que-crece-entre-las-piedras.jpg?ver=6"
