@@ -149,13 +149,6 @@ body {
    width: 100%;
 }
 
-.main-photo__titlegit {
-  position: absolute;
-  bottom: 1rem;
-  left: 20rem;
-  font-size: 2rem;
-}
-
 /* GLIDE SLIDER CSS OVERRIDES */
 #main-photo .glide__arrow  {
   font-size: 4rem;
@@ -171,6 +164,32 @@ body {
   border-color: #252525;
   color: #252525;
 }
+
+.main-photo__title {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+}
+
+/*#main-photo {
+  position: relative;
+}
+
+.main-photo__item {
+   width: 100%;
+}
+
+.main-photo__title {
+  position: absolute;
+  bottom: 1rem;
+  left: 20rem;
+  font-size: 2rem;
+}*/
+
+
 
 /*1. COLOR OPTION*/
 /* CSS variables*/
