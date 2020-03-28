@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/min-width-768px.css">
     <link rel="stylesheet" type="text/css" href="CSS/min-width-992px.css">
+    <link rel="stylesheet" type="text/css" href="PLUGINS/glide-master/dist/css/glide.theme.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 </head>
@@ -52,12 +53,61 @@
             </div>
         </div>    
         <section class="main-photo">
-            <img class="main-photo__item" 
+            <div class="glide">
+                <div class="glide__track"
+                     data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <img src="images/architecture-clouds-daylight-2000.jpg"
+                                 alt="Garden">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/main-header-photo-2000.jpg"
+                                 alt="Garden designed by proffesional">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/header-photo-2000.jpg"
+                                 alt="Garden and plants">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/brown-and-red-birdhouse-2640604.jpg"
+                                 alt="Fugl i hage">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/bloom-blossom-flora-flower-130154.jpg"
+                                 alt="Blomster i hage">
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows"
+                     data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left"
+                            data-glide-dir="<">
+                        <i class="fas fa-chevron-circle-left"></i>
+                    </button>
+                    <button class="glide__arrow glide__arrow--right"
+                            data-glide-dir=">">
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!--<img class="main-photo__item1" 
                  srcset="images/architecture-clouds-daylight-2000.jpg 2000w, 
                          images/architecture-clouds-daylight-1000.jpg 1000w"
                  sizes="(min-width: 1440px) 2000px, 100vw"        
-                 src="images/architecture-clouds-daylight-2000.jpg" alt="Garden" >
-            <h1 class="main-photo__title">Profesjonell hagehjelp</h1>
+                 src="images/architecture-clouds-daylight-2000.jpg" alt="Garden">
+            <img class="main-photo__item2" 
+                 srcset="images/header-photo-2000.jpg 2000w, 
+                         images/header-photo-1000.jpg 1000w"
+                 sizes="(min-width: 1440px) 2000px, 100vw"        
+                 src="images/header-photo-2000.jpg" alt="Garden designed by proffesional" >
+            <img class="main-photo__item3" 
+                 srcset="images/main-header-photo-2000.jpg 2000w, 
+                         images/main-header-photo-1000.jpg 1000w"
+                 sizes="(min-width: 1440px) 2000px, 100vw"        
+                 src="images/main-header-photo-2000.jpg" alt="Garden and plants" >
+            <h1 class="main-photo__title">Profesjonell hagehjelp</h1>-->
         </section>
      </header>
      <main>
@@ -80,6 +130,7 @@
 		     <a href="https://github.com/marinazzz">github.com/marinazzz</a>
 	     </p>
      </footer>
+     <script src="PLUGINS/glide-master/dist/glide.min.js"></script>
      <script src="JS/js-app.js"></script>   
 </body>
 </html>

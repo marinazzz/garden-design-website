@@ -156,6 +156,22 @@ body {
   font-size: 2rem;
 }
 
+/* GLIDE SLIDER CSS OVERRIDES */
+.main-photo .glide__arrow  {
+  font-size: 4rem;
+  padding: 0;
+  border-color: transparent;
+  box-shadow: none;
+  border-radius: 50%;
+  line-height: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.main-photo .glide__arrow:hover {
+  border-color: #252525;
+  color: #252525;
+}
+
 /*1. COLOR OPTION*/
 /* CSS variables*/
 /* :root {
