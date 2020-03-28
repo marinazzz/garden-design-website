@@ -28,6 +28,8 @@ body {
 
 .logo {
   max-height: 8rem;
+  background: white;
+  filter: drop-shadow(2px 4px 10px black);
 }
 
 .container__items--small {
@@ -166,12 +168,17 @@ body {
 }
 
 .main-photo__title {
-  position: absolute;
-  top: 40%;
-  left: 30%;
+  position: relative;
   color: white;
-  background-color: black;
-  padding: 2rem;
+  background-color:#524a4a3b;
+  filter: drop-shadow(2px 4px 6px black);
+  padding: 4rem;
+  margin: auto;
+  bottom: 22rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  animation-duration: 10s;
+  animation-iteration-count: initial;
 }
 
 /*#main-photo {

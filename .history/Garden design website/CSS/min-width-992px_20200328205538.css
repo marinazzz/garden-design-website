@@ -3,8 +3,6 @@
         font-size: 80%;
     }
 
-   /* HEADER */
-
     .logo {
         max-height: 9rem;
     }
@@ -19,14 +17,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-
-    /* HEADER */
-
     .container__item {
         padding-left: 22rem;
     }
-
-    /* MAIN PHOTO */
 
     .main-photo__title {
         bottom: 50rem;
