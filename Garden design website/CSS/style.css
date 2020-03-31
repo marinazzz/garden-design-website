@@ -148,25 +148,36 @@ body {
 
 #main-photo {
   width: 100%;
+  padding-top: 1rem;
 }
 
 .main-photo__title {
-  position: relative;
+  position: absolute;
   color: white;
   background-color:#524a4a3b;
+  border: 0.1rem solid white;
   filter: drop-shadow(2px 4px 6px black);
-  padding: 4rem;
-  margin: auto;
-  bottom: 22rem;
+  padding: 2rem;
+  margin: 0 auto;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
-  animation-duration: 10s;
-  animation-iteration-count: initial;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
 
 /* GLIDE SLIDER CSS OVERRIDES */
+
+.glide__slides {
+  margin: 0;
+}
+
+.glide__slide {
+  position: relative;
+}
+
 /*#main-photo .glide__arrow  {
   font-size: 4rem;
   padding: 0;

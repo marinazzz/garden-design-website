@@ -35,13 +35,16 @@
         margin: 0 auto;
     }
 
-    .container__item {
-        padding-left: 47rem;;
-    }
-    
     #menu {
         padding-left: 30rem;
     }
+
+    .container__item {
+        padding-left: 47rem;;
+    }
+
+
+
 
 
     /* MAIN PHOTO */
@@ -74,6 +77,11 @@
 
     .container__menu {
         max-width: 2000px;
+        margin: 0 auto;
+    }
+
+    .container__items {
+        width: auto;
     }
 
     .container__item-bottom,

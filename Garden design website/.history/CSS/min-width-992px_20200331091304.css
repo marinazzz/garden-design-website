@@ -76,11 +76,6 @@
         max-width: 2000px;
     }
 
-    .container__item-bottom,
-    .container__items {
-        padding: 0;
-    }
-
     #menu,
     .container__item {
         padding-left: 50rem;

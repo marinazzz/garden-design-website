@@ -76,6 +76,11 @@
         max-width: 2000px;
     }
 
+    .container__menu,
+    .container__item--small {
+        box-shadow: 1rem 0.6rem -0.6rem grey;
+    }
+
     .container__item-bottom,
     .container__items {
         padding: 0;

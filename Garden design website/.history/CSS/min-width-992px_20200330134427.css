@@ -2,47 +2,36 @@
     html {
         font-size: 80%;
     }
-    
+
+    .container--max-width {
+        display: block;
+        max-width: 1012px;
+        margin: auto;
+        padding: 0 10rem 0 10rem;
+    }
+
    /* HEADER */
 
     .logo {
         max-height: 9rem;
     }
-
-    .container__items {
-        width: auto;
-    }
-
+    
     .container__item {
-        padding-left: 22rem;;
-    }
-
-    .container__item-bottom,
-    .container__items {
-        padding: 0;
-    }
-
-    #menu {
         padding-left: 10rem;
+    }
+
+    .container__item-bottom {
+        padding: 0 5rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
 
     /* HEADER */
-    .container__menu {
-        max-width: 1500px;
-        margin: 0 auto;
-    }
 
     .container__item {
-        padding-left: 47rem;;
+        padding-left: 22rem;
     }
-    
-    #menu {
-        padding-left: 30rem;
-    }
-
 
     /* MAIN PHOTO */
 
@@ -68,21 +57,5 @@
 
     .container__item-bottom {
         padding: 0 40rem;
-    }
-
-    /*content on middle*/
-
-    .container__menu {
-        max-width: 2000px;
-    }
-
-    .container__item-bottom,
-    .container__items {
-        padding: 0;
-    }
-
-    #menu,
-    .container__item {
-        padding-left: 50rem;
     }
 }

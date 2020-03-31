@@ -74,6 +74,7 @@
 
     .container__menu {
         max-width: 2000px;
+        box-shadow: 1rem 0.6rem -0.6rem grey;
     }
 
     .container__item-bottom,

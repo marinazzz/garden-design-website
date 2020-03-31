@@ -72,8 +72,13 @@
 
     /*content on middle*/
 
-    .container__menu {
+    .container--max-width {
         max-width: 2000px;
+    }
+
+    .container__menu {
+        width: 100%;
+        margin: 0 auto;
     }
 
     .container__item-bottom,

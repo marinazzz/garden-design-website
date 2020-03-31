@@ -76,6 +76,10 @@
         max-width: 2000px;
     }
 
+    .container__item--small, .container__item {
+        box-shadow: 1rem 0.6rem -0.6rem grey;
+    }
+
     .container__item-bottom,
     .container__items {
         padding: 0;
