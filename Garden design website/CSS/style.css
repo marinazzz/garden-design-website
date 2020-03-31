@@ -228,3 +228,114 @@ body {
 
 
 /*------MAIN----------*/
+
+/* SECTIONS */
+
+/*Common styles for sections*/
+
+/*color styles*/
+.section--white-green {
+  --section-bg: #FAFAFA;
+  --section-border-color: #528C36;
+  --section-h2-color: #1C1A21;
+  --buttons-services-color: #528C36;
+}
+
+/*layout*/
+.section-wrapper {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/*#services, #gallery, #reviews, #about {
+  padding: 0.5rem;
+  background: var(--section-bg);
+}*/
+
+/*.services-title, .gallery-title, .about-title {
+  font-size: 2.5rem;
+  margin: 0 9rem;
+  padding-top: 1.6rem;
+  letter-spacing: 0.32rem;
+  border-bottom: var(--section-border-color) solid 0.25rem;
+}*/
+
+
+/* SECTION SERVICES */
+
+.services-title {
+  font-size: 2.5rem;
+  border-bottom: var(--section-border-color) solid 0.25rem;
+  color: black;
+  letter-spacing: 0.32rem;
+  padding: 1rem;
+  margin: 0 10rem;
+}
+
+.services-txt {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.services-item {
+  padding-top: 3rem;
+}
+
+.services-item-title {
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+.services-photo {
+  overflow: hidden;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border-right: solid 1.2rem #528C36;
+  width: 80%;
+}
+
+.services-item-title {
+  color: var(--section-h2-color);
+  letter-spacing: 0.2rem;
+}
+
+.services-toggle {
+  background: var(--buttons-services-color);
+  border-radius: 3rem;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.4rem;
+  padding: 1.2rem 3rem;
+  color: #fff;
+}
+
+.position-button {
+  position: relative;
+}
+
+.position-button > button {
+  position: absolute;
+  bottom: -25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services-item--padding {
+  padding-top: 6rem;
+}
+
+
+/*FOOTER*/
+
+footer {
+  background: #333333;
+  padding: 0.5rem;
+  margin-top: 20rem; /*temporary*/
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

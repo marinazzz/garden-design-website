@@ -118,11 +118,6 @@
 }
 
 .services-item--padding {
-  padding-top: 0;
+  display: none;
 }
-
-.services-item {
-  padding-top: 3rem;
-}
-
 }
