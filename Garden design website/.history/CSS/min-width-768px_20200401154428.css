@@ -135,22 +135,9 @@
 
 .gallery__wrapp {
   padding: 0;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .gallery__item {
   width: 90%
-}
-
-.gallery__items {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 4rem;
-}
-
-.gallery__item-wrapp {
-  padding-bottom: 0;
 }
 }

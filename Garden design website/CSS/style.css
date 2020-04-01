@@ -247,6 +247,7 @@ body {
   padding: 1rem 1rem 0 1rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /*#services, #gallery, #reviews, #about {
@@ -341,6 +342,61 @@ body {
   color: #fff;
 }
 
+
+/* SECTION GALLERY */
+
+.section--dark-green {
+  --section-bg: #304337;
+  --section-title-color: #304337;
+  --section-title-bg: #86BEA9;
+  --section-border-color: #86BEA9;
+  --section-h2-color: #86BEA9;
+}
+
+#gallery {
+  margin-top: 8rem;
+  position: relative;
+}
+
+.gallery__title {
+  width: 65%;
+  color: var(--section-title-color);
+  background: var(--section-title-bg);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 2px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.gallery__wrapp {
+  background: var(--section-bg);
+  padding-top: 5rem;
+}
+
+.gallery__item {
+  border-left: solid 0.6rem var(--section-title-bg);
+  border-bottom: solid 0.6rem var(--section-title-bg);
+  width: 80%;
+}
+
+.gallery__item-wrapp {
+  padding-bottom: 2rem;
+}
+
+.gallery__txt-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery__item-title,
+.gallery__txt {
+  color: var(--section-title-bg);
+  padding: 0 3rem;
+}
+
+.gallery__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /*FOOTER*/
 
