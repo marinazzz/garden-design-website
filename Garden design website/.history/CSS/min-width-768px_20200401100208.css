@@ -113,16 +113,16 @@
 
 /*Common styles for sections*/
 /*layout*/
-.services__wrapp {
+.section__wrapp {
   flex-direction: row;
 }
 
-.services__item {
-  padding-top: 3rem;
+.services-item--padding {
+  padding-top: 0;
 }
 
-.button__position > button {
-  bottom: -20%;
+.services-item {
+  padding-top: 3rem;
 }
 
 }

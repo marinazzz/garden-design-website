@@ -86,14 +86,8 @@
         padding-left: 50rem;
     }
 
-    /* SECTIONS */
-
     .section__container {
         max-width: 2000px;
         margin: 0 auto;
     }
-
-    .button__position > button {
-        bottom: -10%;
-      }
 }

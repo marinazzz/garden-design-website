@@ -117,12 +117,21 @@
   flex-direction: row;
 }
 
+.services__item--padding {
+  padding-top: 0;
+}
+
 .services__item {
   padding-top: 3rem;
 }
-
-.button__position > button {
-  bottom: -20%;
+.button__position {
+  position: relative;
 }
 
+.button__position > button {
+  position: absolute;
+  bottom: -15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 }

@@ -117,12 +117,12 @@
   flex-direction: row;
 }
 
-.services__item {
-  padding-top: 3rem;
+.services__item--padding {
+  padding-top: 0;
 }
 
-.button__position > button {
-  bottom: -20%;
+.services__item {
+  padding-top: 3rem;
 }
 
 }

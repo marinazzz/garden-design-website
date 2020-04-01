@@ -236,14 +236,15 @@ body {
 /*color styles*/
 .section--white-green {
   --section-bg: #FAFAFA;
+  --section-title-bg: #528C36;
   --section-border-color: #528C36;
   --section-h2-color: #1C1A21;
   --buttons-services-color: #528C36;
 }
 
 /*layout*/
-.section-wrapper {
-  padding: 0 1rem;
+.services__wrapp {
+  padding: 1rem 1rem 0 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -264,43 +265,73 @@ body {
 
 /* SECTION SERVICES */
 
-.services-title {
+.services__title {
   font-size: 2.5rem;
-  border-bottom: var(--section-border-color) solid 0.25rem;
-  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.7rem;
+  color: #fafafa;
+  background: var(--section-title-bg);
   letter-spacing: 0.32rem;
   padding: 1rem;
-  margin: 0 10rem;
+  margin: 0 auto;
+  text-transform: uppercase;
 }
 
-.services-txt {
+.services__title,
+.services__photo,
+.services__toggle {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.services__item {
+  padding-top: 5rem;
+}
+
+.item-title__wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas,
+.fa-circle {
+  color: var(--buttons-services-color);
+}
+
+.services__item-title {
+  color: var(--section-h2-color);
+  letter-spacing: 0.2rem;
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+.services__txt {
   margin: 0;
   padding: 1.5rem;
 }
 
-.services-item {
-  padding-top: 3rem;
+.button__position {
+  position: relative;
 }
 
-.services-item-title {
-  margin: 0.5rem 0 0.5rem 0;
-  font-size: 2rem;
+.button__position > button {
+  position: absolute;
+  bottom: -15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.services-photo {
+.services__photo {
   overflow: hidden;
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
-  border-right: solid 1.2rem #528C36;
+  border-right: solid 1.2rem var(--section-border-color);
   width: 80%;
 }
 
-.services-item-title {
-  color: var(--section-h2-color);
-  letter-spacing: 0.2rem;
-}
-
-.services-toggle {
+.services__toggle {
   background: var(--buttons-services-color);
   border-radius: 3rem;
   box-sizing: border-box;
@@ -308,21 +339,6 @@ body {
   font-size: 1.4rem;
   padding: 1.2rem 3rem;
   color: #fff;
-}
-
-.position-button {
-  position: relative;
-}
-
-.position-button > button {
-  position: absolute;
-  bottom: -25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.services-item--padding {
-  padding-top: 6rem;
 }
 
 

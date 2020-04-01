@@ -117,6 +117,10 @@
   flex-direction: row;
 }
 
+.services__item--padding {
+  padding-top: 0;
+}
+
 .services__item {
   padding-top: 3rem;
 }
