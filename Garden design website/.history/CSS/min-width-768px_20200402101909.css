@@ -113,16 +113,15 @@
 
 /*Common styles for sections*/
 /*layout*/
-.services__wrapp,
-.gallery__items {
+.services__wrapp {
   flex-direction: row;
 }
 
 /*SECTION SERVICES*/
 
-/*.services__item {
+.services__item {
   padding-top: 3rem;
-}*/
+}
 
 .button__position > button {
   bottom: -20%;
@@ -137,20 +136,21 @@
 .gallery__wrapp {
   padding: 0;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.gallery__items {
+  flex-direction: row;
   justify-content: space-around;
+  padding-top: 4rem;
+}
+
+.gallery__item-wrapp {
+  padding: 0 2rem 2rem 0;
 }
 
 .gallery__txt-wrapp {
   display: block;
   margin: auto;
 }
-
-.gallery__item-wrapp {
-  padding: 0 2rem 2rem 2rem;;
-}
-
-.gallery__item-wrapp--padding {
-  padding: 0 0 2rem 0;
-}
-
 }

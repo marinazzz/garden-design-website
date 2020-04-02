@@ -122,7 +122,7 @@
 
 /*.services__item {
   padding-top: 3rem;
-}*/
+}
 
 .button__position > button {
   bottom: -20%;
@@ -144,13 +144,4 @@
   display: block;
   margin: auto;
 }
-
-.gallery__item-wrapp {
-  padding: 0 2rem 2rem 2rem;;
-}
-
-.gallery__item-wrapp--padding {
-  padding: 0 0 2rem 0;
-}
-
 }

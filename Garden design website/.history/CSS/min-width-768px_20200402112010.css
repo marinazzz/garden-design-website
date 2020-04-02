@@ -120,9 +120,9 @@
 
 /*SECTION SERVICES*/
 
-/*.services__item {
+.services__item {
   padding-top: 3rem;
-}*/
+}
 
 .button__position > button {
   bottom: -20%;
@@ -137,20 +137,20 @@
 .gallery__wrapp {
   padding: 0;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
+}
+
+.gallery__items {
+  padding-top: 4rem;
+}
+
+.gallery__item-wrapp {
+  padding: 0 2rem 2rem 2rem;
 }
 
 .gallery__txt-wrapp {
   display: block;
   margin: auto;
 }
-
-.gallery__item-wrapp {
-  padding: 0 2rem 2rem 2rem;;
-}
-
-.gallery__item-wrapp--padding {
-  padding: 0 0 2rem 0;
-}
-
 }

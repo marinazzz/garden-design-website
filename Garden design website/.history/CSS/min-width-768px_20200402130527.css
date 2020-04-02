@@ -113,8 +113,7 @@
 
 /*Common styles for sections*/
 /*layout*/
-.services__wrapp,
-.gallery__items {
+.services__wrapp.gallery__items {
   flex-direction: row;
 }
 
@@ -153,4 +152,7 @@
   padding: 0 0 2rem 0;
 }
 
+.gallery__items:nth-child(2) {
+  padding-left: 1.4rem;
+}
 }

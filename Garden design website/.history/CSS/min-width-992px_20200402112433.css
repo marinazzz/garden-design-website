@@ -94,16 +94,12 @@
     }
 
     .button__position > button {
-        bottom: -15%;
+        bottom: -10%;
       }
 
       /*SECTION GALLERY*/
 
       .gallery__wrapp {
           justify-content: space-around;
-      }
-
-      .services__wrapp {
-          padding: 0;
       }
 }

@@ -244,10 +244,10 @@ body {
 
 /*layout*/
 .services__wrapp {
-  padding: 1rem 1rem 0 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 1rem;
 }
 
 /*#services, #gallery, #reviews, #about {
@@ -367,17 +367,17 @@ body {
 
 .gallery__wrapp {
   background: var(--section-bg);
-  padding-top: 5rem;
 }
 
 .gallery__item {
   border-left: solid 0.6rem var(--section-title-bg);
   border-bottom: solid 0.6rem var(--section-title-bg);
-  width: 80%;
+  width: 100%;
+  /*box-shadow: inset 6px -6px 6px 1px #86bea9;*/
 }
 
 .gallery__item-wrapp {
-  padding-bottom: 2rem;
+  padding: 0 2rem 2rem 1.4rem;
 }
 
 .gallery__txt-wrapp {
@@ -393,6 +393,7 @@ body {
 }
 
 .gallery__items {
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
