@@ -19,8 +19,16 @@ navBarToggle.addEventListener("click", function () {
     animationDuration: 10000
 }).mount()*/
 
+let carousels = document.querySelectorAll("#reviews > div");
+Object.values(carousels).map(carousel => {
+      let slider = new Glide(carousel, {
+        type: "carousel",
+      });
+      slider.mount();
+});
+
 let mainGlide = document.querySelectorAll("#main-photo > div");
-Object.values(mainGlide).map(carousel => {
+Object.values(mainGlide.map(carousel => {
       let mainGlider = new Glide(carousel, {
          autoplay: true,
          hoverpause: false,
@@ -28,21 +36,5 @@ Object.values(mainGlide).map(carousel => {
          animationDuration: 10000
       });
       mainGlider.mount();
-})
-
-let reviewGlide = document.querySelectorAll("#reviews > div");
-Object.values(reviewGlide).map(carousel => {
-      let reviewSlider = new Glide(carousel, {
-        type: 'carousel'
-      });
-      reviewSlider.mount();
 });
-
-//breakpoints
-
-/*new Glide('.glide').mount({ Breakpoints })
-Breakpoints.match({
-  600: { perView: 1 },
-  1200: { perView: 3 }
-});*/
 

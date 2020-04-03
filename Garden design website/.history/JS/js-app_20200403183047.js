@@ -40,9 +40,20 @@ Object.values(reviewGlide).map(carousel => {
 
 //breakpoints
 
-/*new Glide('.glide').mount({ Breakpoints })
-Breakpoints.match({
-  600: { perView: 1 },
-  1200: { perView: 3 }
-});*/
+let gliderBreakpoint = document.querySelectorAll("#reviews > div");
+Object.values(reviewGlide).map(carousel => {
+  let gliderForReviews = new Glide(carousel, {
+    type: 'carousel'
+  });
+  gliderForReviews.mount({ Breakpoints });
+  Breakpoints.match({
+    600: { perView: 1 },
+    1200: { perView: 3 }
+  })
+});
+
+
+
+
+
 

@@ -38,11 +38,6 @@ Object.values(reviewGlide).map(carousel => {
       reviewSlider.mount();
 });
 
-//breakpoints
 
-/*new Glide('.glide').mount({ Breakpoints })
-Breakpoints.match({
-  600: { perView: 1 },
-  1200: { perView: 3 }
-});*/
+
 

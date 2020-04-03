@@ -30,19 +30,12 @@ Object.values(mainGlide).map(carousel => {
       mainGlider.mount();
 })
 
-let reviewGlide = document.querySelectorAll("#reviews > div");
-Object.values(reviewGlide).map(carousel => {
-      let reviewSlider = new Glide(carousel, {
+let carousels = document.querySelectorAll("#reviews > div");
+Object.values(carousels).map(carousel => {
+      let slider = new Glide(carousel, {
         type: 'carousel'
       });
-      reviewSlider.mount();
+      slider.mount();
 });
 
-//breakpoints
-
-/*new Glide('.glide').mount({ Breakpoints })
-Breakpoints.match({
-  600: { perView: 1 },
-  1200: { perView: 3 }
-});*/
 
