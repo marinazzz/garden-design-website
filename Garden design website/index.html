@@ -199,28 +199,80 @@
                 </div>
             </div>  
         </section>
-         <article id="blog-posts">
-
-         </article>   
-         <section id="about oss">
-
-        </section>
+        <div class="reviews__bg">
+            <section id="reviews">
+                <h1 class="reviews__title services__title">Referanser</h1>
+                <div class="glide"> <!--needs to be 3 slides per view on tablet,laptop-->
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="review__items">
+                                <img class="review__photo"       
+                                 src="images/review-picture1.jpg" alt="Hagedesign terrase" />
+                                <h2 class="review__title">Beste hagehjelp</h2>
+                                <blockquote>
+                                    <p class="review__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
+                                       Vero dicta blanditiis quidem est.</p> 
+                                     <footer class="review__author">Anonymous</footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="review__items">
+                                <img class="review__photo"       
+                                 src="images/review-picture2.jpg" alt="Hagedesign terrase" />
+                                <h2 class="review__title">Tussen takk</h2>
+                                <blockquote>
+                                    <p class="review__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
+                                       Vero dicta blanditiis quidem est.</p> 
+                                     <footer class="review__author">Anonymous</footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="review__items">
+                                <img class="review__photo"       
+                                 src="images/review-picture3.jpg" alt="Hagedesign terrase" />       
+                                <h2 class="review__title">Anbefaler</h2>
+                                <blockquote>
+                                    <p class="review__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                       Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
+                                       Vero dicta blanditiis quidem est.</p> 
+                                     <footer class="review__author">Anonymous</footer>
+                                </blockquote>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="glide__arrows"
+                             data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left"
+                                    data-glide-dir="<">
+                                <i class="fas fa-chevron-circle-left"></i>
+                            </button>
+                            <button class="glide__arrow glide__arrow--right"
+                                    data-glide-dir=">">
+                                <i class="fas fa-chevron-circle-right"></i>
+                            </button>
+                        </div>
+                 </div>
+            </section>
+             <article id="blog-posts">
+    
+             </article>   
+             <section id="about oss">
+    
+            </section>
+        </div>
      </main>   
-     <footer>
+     <footer class="footer__main">
 	     <p>designed by Marina Zujic
 		     <a href="https://github.com/marinazzz">github.com/marinazzz</a>
 	     </p>
      </footer>
      <script src="PLUGINS/glide-master/dist/glide.min.js"></script>
-     <script>
-        new Glide('.glide', {
-            type: 'carousel',
-            autoplay: true,
-            hoverpause: false,
-            perView: 1,
-            animationDuration: 10000
-        }).mount()
-      </script>
      <script src="JS/js-app.js"></script>   
 </body>
 </html>

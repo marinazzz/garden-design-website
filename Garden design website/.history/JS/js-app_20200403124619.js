@@ -19,10 +19,12 @@ new Glide('.glide', {
     animationDuration: 10000
 }).mount()
 
+
 const carousels = document.querySelectorAll(".glide");
 Object.values(carousels).map(carousel => {
       const slider = new Glide(carousel, {
         type: "carousel",
+        perView: 3
       });
       slider.mount();
 });

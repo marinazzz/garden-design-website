@@ -19,10 +19,25 @@ new Glide('.glide', {
     animationDuration: 10000
 }).mount()
 
+
 const carousels = document.querySelectorAll(".glide");
 Object.values(carousels).map(carousel => {
       const slider = new Glide(carousel, {
-        type: "carousel",
+        type: "carousel"
       });
       slider.mount();
 });
+
+let input = document.querySelector('#options-per-view-input')
+
+let glide = new Glide('#options-per-view', {
+  perView: 3
+})
+
+input.addEventListener('input', function (event) {
+  glide.update({
+    perView: event.target.value
+  })
+})
+
+glide.mount()

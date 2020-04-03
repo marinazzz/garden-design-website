@@ -155,13 +155,16 @@
 
 /*SECTION REVIEWS*/
 
-#reviews .glide__arrow--right {
+.glide__arrow--right {
   right: 10rem;
 }
 
-#reviews .glide__arrow--left {
+.glide__arrow--left {
   left: 10rem;
 }
 
+.glide__arrow--right {
+  right: 5em;
+}
 
 }
