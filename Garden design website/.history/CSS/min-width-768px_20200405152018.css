@@ -6,6 +6,7 @@
 
    /* HEADER */
 
+
    .container__menu, 
    .container__items {
     display: grid;
@@ -43,11 +44,6 @@
   
   .menu__toggle {
     display: none;
-  }
-
-  .fa-phone, 
-  .fa-envelope {
-  color: black;
   }
 
   /* NAVIGATION */
