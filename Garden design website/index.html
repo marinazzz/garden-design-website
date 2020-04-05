@@ -31,8 +31,7 @@
 </head>
 
 <body>
-  <header class="header--white-green">
-    <div class="wrapper">
+  <header>
       <div class="container__menu--small container__menu">
         <!--grid container-->
         <div class="container__logo">
@@ -86,7 +85,6 @@
           </div>
         </div>
       </div>
-    </div>
     <section id="main-photo">
       <div class="glide">
         <div class="glide__track"
@@ -130,42 +128,14 @@
             </li>
           </ul>
         </div>
-        <!--<div class="glide__arrows"
-                         data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left"
-                                data-glide-dir="<">
-                            <i class="fas fa-chevron-circle-left"></i>
-                        </button>
-                        <button class="glide__arrow glide__arrow--right"
-                                data-glide-dir=">">
-                            <i class="fas fa-chevron-circle-right"></i>
-                        </button>
-                    </div>-->
       </div>
-
-      <!--<img class="main-photo__item1" 
-                 srcset="images/architecture-clouds-daylight-2000.jpg 2000w, 
-                         images/architecture-clouds-daylight-1000.jpg 1000w"
-                 sizes="(min-width: 1440px) 2000px, 100vw"        
-                 src="images/architecture-clouds-daylight-2000.jpg" alt="Garden">
-            <img class="main-photo__item2" 
-                 srcset="images/header-photo-2000.jpg 2000w, 
-                         images/header-photo-1000.jpg 1000w"
-                 sizes="(min-width: 1440px) 2000px, 100vw"        
-                 src="images/header-photo-2000.jpg" alt="Garden designed by proffesional" >
-            <img class="main-photo__item3" 
-                 srcset="images/main-header-photo-2000.jpg 2000w, 
-                         images/main-header-photo-1000.jpg 1000w"
-                 sizes="(min-width: 1440px) 2000px, 100vw"        
-                 src="images/main-header-photo-2000.jpg" alt="Garden and plants" >
-            <h1 class="main-photo__title">Profesjonell hagehjelp</h1>-->
     </section>
   </header>
   <main>
-    <section id="services"
-             class="section--white-green section__container">
-      <h1 class="services__title">Tjenester</h1>
-      <div class="services__wrapp">
+    <section id="section__services"
+             class="section__container">
+      <h1 class="services__title sections__title">Tjenester</h1>
+      <div class="container">
         <section class="services__item">
           <div class="item-title__wrapp">
             <i class="fas fa-circle"></i>
@@ -173,11 +143,11 @@
           </div>
           <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
             ex aperiam dolores corporis iusto!</p>
-          <div class="button__position">
+          <div class="services__photo__wrapp">
             <img class="services__photo"
                  src="images/Hagedesign.jpg"
                  alt="Hagedesigner tegner" />
-            <button class="services__toggle">les mer</button>
+            <button class="primary__button services__button">les mer</button>
           </div>
         </section>
         <section class="services__item">
@@ -187,12 +157,12 @@
           </div>
           <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
             ex aperiam dolores corporis iusto!</p>
-          <div class="button__position">
+          <div class="services__photo__wrapp">
             <img class="services__photo"
                  src="images/konsultasjon.jpg"
                  alt="Hagekonsultasjon med hagedesigner" />
             <!--smaller picture than other 2-->
-            <button class="services__toggle">les mer</button>
+            <button class="primary__button services__button">les mer</button>
           </div>
         </section>
         <section class="services__item">
@@ -202,20 +172,20 @@
           </div>
           <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
             ex aperiam dolores corporis iusto!</p>
-          <div class="button__position">
+          <div class="services__photo__wrapp">
             <img class="services__photo"
                  src="images/skisse.jpg"
                  alt="Hagedesigner hjelp" />
-            <button class="services__toggle">les mer</button>
+            <button class="primary__button services__button">les mer</button>
           </div>
         </section>
       </div>
     </section>
-    <section id="gallery"
-             class="section--dark-green section__container">
-      <h1 class="gallery__title services__title">Våre prosjekter</h1>
-      <div class="gallery__wrapp services__wrapp">
-        <div class="gallery__items">
+    <section id="section__gallery"
+             class="section__container">
+      <h1 class="gallery__title sections__title">Våre prosjekter</h1>
+      <div class="container gallery__wrapp">
+        <div class="container gallery__items">
           <div class="gallery__item-wrapp">
             <img class="gallery__item"
                  srcset="images/gallery-photo1-2000.jpg 2000w, 
@@ -241,7 +211,7 @@
                  alt="Hagedesign terrase" />
           </div>
         </div>
-        <div class="gallery__txt-wrapp">
+        <div class="container gallery__txt-wrapp">
           <h2 class="gallery__item-title services__item-title">See alle prosjekter
             <i class="fas fa-angle-double-right"></i>
           </h2>

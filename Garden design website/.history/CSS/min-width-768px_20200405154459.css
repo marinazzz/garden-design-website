@@ -107,7 +107,10 @@
 
 
 /* SECTIONS */
-
+.section__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 /* SECTION SERVICES */
 
 .services__photo__wrapp > button {

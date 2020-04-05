@@ -25,30 +25,6 @@
     #menu {
         padding-left: 10rem;
     }
-
-    /* SECTIONS */
-
-    .section__container {
-        max-width: 2000px;
-        margin: 0 auto;
-    }
-
-    /* SECTIONS SERVICES*/
-
-    .services__photo__wrapp > button {
-        bottom: -15%;
-    }
-
-    /*SECTION GALLERY*/
-
-    .gallery__wrapp {
-        justify-content: space-around;
-    }
-
-    .services__wrapp {
-        padding: 0;
-    }
-    
 }
 
 @media screen and (min-width: 1440px) {
@@ -110,4 +86,24 @@
         padding-left: 50rem;
     }
 
+    /* SECTIONS */
+
+    .section__container {
+        max-width: 2000px;
+        margin: 0 auto;
+    }
+
+    .services__photo__wrapp > button {
+        bottom: -15%;
+      }
+
+      /*SECTION GALLERY*/
+
+      .gallery__wrapp {
+          justify-content: space-around;
+      }
+
+      .services__wrapp {
+          padding: 0;
+      }
 }

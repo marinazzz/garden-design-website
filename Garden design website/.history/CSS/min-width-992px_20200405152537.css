@@ -33,22 +33,9 @@
         margin: 0 auto;
     }
 
-    /* SECTIONS SERVICES*/
-
     .services__photo__wrapp > button {
         bottom: -15%;
-    }
-
-    /*SECTION GALLERY*/
-
-    .gallery__wrapp {
-        justify-content: space-around;
-    }
-
-    .services__wrapp {
-        padding: 0;
-    }
-    
+      }
 }
 
 @media screen and (min-width: 1440px) {
@@ -110,4 +97,15 @@
         padding-left: 50rem;
     }
 
+    
+
+      /*SECTION GALLERY*/
+
+      .gallery__wrapp {
+          justify-content: space-around;
+      }
+
+      .services__wrapp {
+          padding: 0;
+      }
 }
