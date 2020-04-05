@@ -6,7 +6,7 @@ let navBarToggle = document.querySelector(".menu__toggle");
 
 navBarToggle.addEventListener("click", function () {
 
-    mainNav.classList.toggle("menu-opened");
+  mainNav.classList.toggle("menu-opened");
 });
 
 //GLIDE PLUGIN
@@ -21,21 +21,29 @@ navBarToggle.addEventListener("click", function () {
 
 let mainGlide = document.querySelectorAll("#main-photo > div");
 Object.values(mainGlide).map(carousel => {
-      let mainGlider = new Glide(carousel, {
-         autoplay: true,
-         hoverpause: false,
-         perView: 1,
-         animationDuration: 10000
-      });
-      mainGlider.mount();
+  let mainGlider = new Glide(carousel, {
+    autoplay: true,
+    hoverpause: false,
+    perView: 1,
+    animationDuration: 10000
+  });
+  mainGlider.mount();
 })
 
 let reviewGlide = document.querySelectorAll("#reviews > div");
 Object.values(reviewGlide).map(carousel => {
-      let reviewSlider = new Glide(carousel, {
-        type: 'carousel'
-      });
-      reviewSlider.mount();
+  let reviewSlider = new Glide(carousel, {
+    type: 'carousel',
+    perView: 3,
+    breakpoints: {
+      992: {
+        perView: 1
+      },
+
+    }
+  });
+  reviewSlider.mount();
+
 });
 
 //breakpoints
