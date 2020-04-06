@@ -34,7 +34,7 @@ let reviewGlide = document.querySelectorAll("#section__reviews > div");
 Object.values(reviewGlide).map(carousel => {
   let reviewSlider = new Glide(carousel, {
     type: 'carousel',
-    perView: 2,
+    perView: 3,
     breakpoints: {
       992: {
         perView: 1
