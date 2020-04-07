@@ -139,11 +139,11 @@
    /*SECTION REVIEWS*/
    
    #section__reviews .glide__arrow--right {
-    right: 5rem;
+    right: 10rem;
   }
 
    #section__reviews .glide__arrow--left {
-    left: 5rem;
+    left: 10rem;
   }
 
    .review__wrapp {

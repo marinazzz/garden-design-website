@@ -139,11 +139,11 @@
    /*SECTION REVIEWS*/
    
    #section__reviews .glide__arrow--right {
-    right: 5rem;
+    right: 10rem;
   }
 
    #section__reviews .glide__arrow--left {
-    left: 5rem;
+    left: 10rem;
   }
 
    .review__wrapp {
@@ -151,35 +151,17 @@
     position: relative;
   }
  
-  #section__reviews,
-  #section__about,
-  #section__experience {
-    margin-bottom: 0;
-    height: fit-content;
-  }
+#section__reviews {
+  width: auto;
+}
 
-  #section__about,
-  #section__experience {
-    padding: 0;
-  }
+#section__reviews > div,{
+  width: 400px;
+}
 
-  #section__reviews,
-  .glide__track,
-  .glide__slides {
-    width: auto;
-    height: fit-content;
-  }
-
-  .glide__slide {
-    width: 100%;
-  }
-
-  #section__reviews > .glide--swipeable {
-    width: 400px;
-  }
-
-  .reviews__bg {
-    flex-direction: row;
-  }
+#section__reviews > div > div.glide__track > ul,
+#section__reviews > div > div.glide__track > ul > li {
+  width: auto;
+}
 
 }

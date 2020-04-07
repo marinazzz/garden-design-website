@@ -11,6 +11,14 @@ navBarToggle.addEventListener("click", function () {
 
 //GLIDE PLUGIN
 
+/*new Glide('.glide', {
+    type: 'carousel',
+    autoplay: true,
+    hoverpause: false,
+    perView: 1,
+    animationDuration: 10000
+}).mount()*/
+
 let mainGlide = document.querySelectorAll("#main-photo > div");
 Object.values(mainGlide).map(carousel => {
   let mainGlider = new Glide(carousel, {
@@ -32,4 +40,11 @@ Object.values(reviewGlide).map(carousel => {
 
 });
 
+//breakpoints
+
+/*new Glide('.glide').mount({ Breakpoints })
+Breakpoints.match({
+  600: { perView: 1 },
+  1200: { perView: 3 }
+});*/
 
