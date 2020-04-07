@@ -136,4 +136,15 @@
   flex-direction: row;
 }
 
+/*SECTION REVIEWS*/
+
+#section__reviews .glide__arrow--right {
+  right: 10rem;
+}
+
+#section__reviews .glide__arrow--left {
+  left: 10rem;
+}
+
+
 }
