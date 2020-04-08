@@ -132,14 +132,15 @@
   }
   
   .container,
-  .gallery__items,
-  .reviews__bg {
+  .gallery__items {
     flex-direction: row;
   }
 
    /*SECTION REVIEWS*/
   
+   
   .reviews__bg {
+    flex-direction: row;
     justify-content: space-evenly;
   }
     

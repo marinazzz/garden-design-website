@@ -132,20 +132,20 @@
   }
   
   .container,
-  .gallery__items,
-  .reviews__bg {
+  .gallery__items {
     flex-direction: row;
   }
 
    /*SECTION REVIEWS*/
   
-  .reviews__bg {
-    justify-content: space-evenly;
-  }
-    
-  .review__wrapp {
+   .review__wrapp {
     display: block;
     position: relative;
+  }
+ 
+  .reviews__bg {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   #section__about,
@@ -160,8 +160,7 @@
   }
 
   .review__wrapp,
-  .glide__wrapp,
-  .glide__slide--active {
+  .glide__wrapp {
     width: 230px;
   }
   
@@ -171,6 +170,10 @@
   
   #section__reviews > div > div {
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .glide__slide--active {
+    width: 230px;
   }
   
   div [class="review__items"]{

@@ -94,8 +94,7 @@
     /* SECTION REVIEWS */
     
     .review__wrapp,
-    .glide__wrapp,
-    .glide__slide--active {
+    .glide__wrapp {
         width: 450px;
     }
     

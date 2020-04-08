@@ -32,7 +32,7 @@ body {
 /*titles*/
 
 .sections__title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -345,7 +345,7 @@ body {
 
 .reviews__bg {
   background: var(--color-brown);
-  padding: 4rem 0 1rem 0;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
 }
@@ -358,9 +358,9 @@ body {
 
 
 div [class="review__items"] {
-  padding: 4rem 1rem 1rem 1rem;
-  border-radius: 5%;
-  width: 80%;
+  padding: 3rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -381,7 +381,7 @@ div [class="review__items"] {
 
 .reviews__title {
   z-index: 1;
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -427,7 +427,7 @@ blockquote > footer{
 #section__about > div,
 #section__about > .reviews__title {
   background: var(--color-light-green);
-  color: var(--color-white);
+  color: var(--color-dark-green);
 }
 
 /* SECTION ABOUT */
@@ -458,7 +458,7 @@ blockquote > footer{
 
 .item__link,
 .experience__link {
-  color:#F3F2ED; 
+  color: var(--color-dark-green); 
   text-decoration: none;
 }
 

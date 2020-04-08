@@ -132,20 +132,30 @@
   }
   
   .container,
-  .gallery__items,
-  .reviews__bg {
+  .gallery__items {
     flex-direction: row;
   }
 
    /*SECTION REVIEWS*/
-  
-  .reviews__bg {
-    justify-content: space-evenly;
+   
+   #section__reviews .glide__arrow--right {
+    right: 5rem;
   }
-    
-  .review__wrapp {
+
+   #section__reviews .glide__arrow--left {
+    left: 5rem;
+  }
+
+   .review__wrapp {
     display: block;
     position: relative;
+  }
+ /*
+  #section__reviews,
+  #section__about,
+  #section__experience {
+    margin-bottom: 0;
+    height: fit-content;
   }
 
   #section__about,
@@ -154,42 +164,24 @@
   }
 
   #section__reviews,
-  #section__about,
-  #section__experience {
-    margin-bottom: 2rem;
+  .glide__track,
+  .glide__slides {
+    width: auto;
+    height: fit-content;
   }
 
-  .review__wrapp,
-  .glide__wrapp,
-  .glide__slide--active {
-    width: 230px;
-  }
-  
-  .reviews__title {
-    font-size: 2rem;
-  }
-  
-  #section__reviews > div > div {
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  }
-  
-  div [class="review__items"]{
-      margin: 0;
-      width: auto;
+  .glide__slide {
+    width: 100%;
   }
 
-  #section__reviews .glide__arrow--right {
-    right: 0.5rem;
+  #section__reviews > .glide--swipeable {
+    width: 400px;
   }
+
+  .reviews__bg {
+    flex-direction: row;
+  }*/
+
   
-  #section__reviews .glide__arrow--left {
-    left: 0.5rem;
-  }
-    
-  #section__experience > div > h2 {
-    font-size: 1.5rem;
-    padding: 0;
-    letter-spacing: 0.rem;
-  }
 
 }
