@@ -16,8 +16,7 @@
    }
 
    .container__menu, 
-   .container__items,
-   .container__menu--small {
+   .container__items {
     display: flex;
     background: var(--color-main-green);
    }

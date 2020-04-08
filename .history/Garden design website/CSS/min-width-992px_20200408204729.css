@@ -9,6 +9,10 @@
         max-height: 9rem;
     }
 
+    .container__item {
+        padding-left: 22rem;;
+    }
+
     .container__item-bottom,
     .container__items {
         padding: 0;
@@ -67,6 +71,10 @@
         margin: 0 auto;
     }
     
+    .container__item {
+        padding-left: 47rem;;
+    }
+    
     #menu {
         padding-left: 30rem;
     }
@@ -102,8 +110,7 @@
     }
 
     .logo {
-        max-height: 10rem;
-        left: 17rem;
+        max-height: 12rem;
     }
 
     .container__item {
@@ -115,7 +122,7 @@
     }
 
     .container__item-bottom {
-        padding: 0 20rem;
+        padding: 0 40rem;
     }
 
     /*content on middle*/

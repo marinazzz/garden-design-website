@@ -60,6 +60,7 @@ body {
   display: flex;
   justify-content: space-around;
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.24), 0 0 30rem 0 rgba(0, 0, 0, 0.2);
+  background: white;
 }
 
 .logo {

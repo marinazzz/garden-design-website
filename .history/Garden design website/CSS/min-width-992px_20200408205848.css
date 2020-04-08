@@ -102,8 +102,7 @@
     }
 
     .logo {
-        max-height: 10rem;
-        left: 17rem;
+        max-height: 12rem;
     }
 
     .container__item {
@@ -114,9 +113,7 @@
         padding: 0 13rem;
     }
 
-    .container__item-bottom {
-        padding: 0 20rem;
-    }
+    
 
     /*content on middle*/
 

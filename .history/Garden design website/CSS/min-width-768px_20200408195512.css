@@ -6,43 +6,29 @@
 
    /* HEADER */
 
-
-   .logo {
-    position: absolute;
-    top: 0;
-    left: 2rem;
-    z-index: 50;
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.62), 0 0 30rem 0 rgba(0, 0, 0, 0.19);
-   }
-
    .container__menu, 
-   .container__items,
-   .container__menu--small {
-    display: flex;
-    background: var(--color-main-green);
+   .container__items {
+    display: grid;
    }
   
    .container__menu {
+    grid-template-columns: 2fr 80%;
     box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.62), 0 0 30rem 0 rgba(0, 0, 0, 0.19);
   }
   
   .container__items {
+    grid-template-rows: 1fr;
+    background: var(--color-main-green);
     width: auto;
-    justify-content: flex-end;
   }
   
   .container__item,
   .container__item-bottom {
     display: flex;
-    width: 80%;
   }
 
   .container__item {
     display: none;
-  }
-
-  .container__items--small {
-    width: 100%;
   }
 
 

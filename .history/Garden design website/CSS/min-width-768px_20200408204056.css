@@ -16,8 +16,7 @@
    }
 
    .container__menu, 
-   .container__items,
-   .container__menu--small {
+   .container__items {
     display: flex;
     background: var(--color-main-green);
    }
@@ -28,13 +27,11 @@
   
   .container__items {
     width: auto;
-    justify-content: flex-end;
   }
   
   .container__item,
   .container__item-bottom {
     display: flex;
-    width: 80%;
   }
 
   .container__item {
