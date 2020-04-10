@@ -495,11 +495,10 @@ blockquote > footer{
   background: var(--color-brown);
 }
 
-.section__member .section__review__top {
-  width: 85%;
-}
-
 .section__member__wrapp {
+  padding: 3rem 1rem 1rem 1rem;
+  text-align: left;
+  position: relative;
   background: var(--color-light-green);
   color: var(--color-white);
   box-sizing: border-box;
@@ -507,28 +506,26 @@ blockquote > footer{
 }
 
 
-.section__member__wrapp {
+.section__member__wrapp,
+.member__photo__el {
+  border-radius: 0.5rem;
   width: 85%;
   margin: 0 auto;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .member__photo {
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .member__photo__el {
-  width: 40%;
+  width: 100%;
 }
 
-.section__member .member__items {
-  text-align: left;
-  padding: 0 1rem 1rem 1rem;
-  font-size: 1.3rem;
-}
-
-.section__member .section__review__title {
-  color: var(--color-white);
+.member__items {
+  padding-top: 5rem;
 }
 
 /* SECTION AWARDS*/
@@ -547,6 +544,7 @@ blockquote > footer{
 
 /* SECTION REVIEW OPTION 2 */
 
+.sections__title, 
 .reviews__bg {
   position: static;
   left: 0;
@@ -571,7 +569,6 @@ blockquote > footer{
   color: var(--color-brown);
   text-transform: uppercase;
   padding: 1rem 0;
-  margin: 0;
 }
 
 #section__reviews .section__review__title {

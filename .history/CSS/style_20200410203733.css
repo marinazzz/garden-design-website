@@ -495,10 +495,6 @@ blockquote > footer{
   background: var(--color-brown);
 }
 
-.section__member .section__review__top {
-  width: 85%;
-}
-
 .section__member__wrapp {
   background: var(--color-light-green);
   color: var(--color-white);

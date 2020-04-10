@@ -495,10 +495,6 @@ blockquote > footer{
   background: var(--color-brown);
 }
 
-.section__member .section__review__top {
-  width: 85%;
-}
-
 .section__member__wrapp {
   background: var(--color-light-green);
   color: var(--color-white);
@@ -518,12 +514,12 @@ blockquote > footer{
 }
 
 .member__photo__el {
-  width: 40%;
+  width: 50%;
 }
 
 .section__member .member__items {
   text-align: left;
-  padding: 0 1rem 1rem 1rem;
+  padding: 1rem;
   font-size: 1.3rem;
 }
 

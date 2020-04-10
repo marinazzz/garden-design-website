@@ -495,10 +495,6 @@ blockquote > footer{
   background: var(--color-brown);
 }
 
-.section__member .section__review__top {
-  width: 85%;
-}
-
 .section__member__wrapp {
   background: var(--color-light-green);
   color: var(--color-white);
@@ -518,17 +514,11 @@ blockquote > footer{
 }
 
 .member__photo__el {
-  width: 40%;
+  width: 100%;
 }
 
 .section__member .member__items {
   text-align: left;
-  padding: 0 1rem 1rem 1rem;
-  font-size: 1.3rem;
-}
-
-.section__member .section__review__title {
-  color: var(--color-white);
 }
 
 /* SECTION AWARDS*/
@@ -571,7 +561,6 @@ blockquote > footer{
   color: var(--color-brown);
   text-transform: uppercase;
   padding: 1rem 0;
-  margin: 0;
 }
 
 #section__reviews .section__review__title {
