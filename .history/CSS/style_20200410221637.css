@@ -586,6 +586,7 @@ blockquote > footer{
 .section__member .review__items {
   background: var(--color-light-green);
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .section__member__photo {

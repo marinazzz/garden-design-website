@@ -44,7 +44,7 @@ Object.values(awardsGlide).map(carousel => {
     perView: 5,
     autoplay: 5000,
     animationDuration: 1000,
-    gap: 0,
+    gap: 5,
     breakpoints: {
       768: {
         perView: 4

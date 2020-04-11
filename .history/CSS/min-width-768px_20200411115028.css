@@ -152,12 +152,11 @@
 
    /*SECTION REVIEWS*/
 
-   /* SHARED COMPONENTS*/
+   /* SHARED COMPONENTS for all three sections */
 
    #section__reviews,
    #section__about,
-   #section__experience,
-   .section__member .review__items {
+   #section__experience {
      margin-bottom: 0;
    }
 
@@ -169,12 +168,6 @@
      width: 230px;
    }
 
-   div [class="review__items"]{
-     margin: 0;
-     width: auto;
-   }
-
-   
    /*section review*/
 
   .section__reviews__container,
@@ -188,11 +181,22 @@
     padding-bottom: 23rem;
   }
   
+  /*section about*/
+  #section__about,
+  #section__experience {
+    padding: 0;
+  }
   
-  #section__reviews .glide--swipeable {
+
+
+  .glide--swipeable {
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
   
+  div [class="review__items"]{
+    margin: 0;
+    width: auto;
+  }
   
   #section__reviews .glide__track {
     border-bottom-right-radius: 0.5rem;
@@ -213,32 +217,25 @@
   #section__reviews .glide__arrow--left {
     left: -0.5rem;
   }
-  
+
   #section__reviews blockquote {
     margin: 0;
     padding: 1rem;
   }
-  
-  
+    
+
   #section__reviews .section__review__title,
   #section__reviews .section__review__top {
     width: 100%;
   }
 
-
-  /*section about*/
-  #section__about,
-  #section__experience {
-    padding: 0;
-  }
-  
   #section__about .review__items,
   #section__experience .review__items  {
     margin: 0;
   }
 
-
   /*section member*/
+
   .section__member {
     position: relative;
     margin-top: 4rem;
@@ -264,6 +261,16 @@
   .section__member .section__review__top,
   .section__member__photo {
     width: 100%;
+  }
+
+  /*.member__photo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }*/
+
+  .member__items {
+    padding-top: 5rem;
   }
 
   /* SECTION AWARDS */

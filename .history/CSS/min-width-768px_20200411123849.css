@@ -152,7 +152,7 @@
 
    /*SECTION REVIEWS*/
 
-   /* SHARED COMPONENTS*/
+   /* SHARED COMPONENTS */
 
    #section__reviews,
    #section__about,
@@ -251,14 +251,14 @@
 
 
   .section__member > div:nth-child(1) {
-    left: -12rem;
-    top: 3rem;
+    right: 180px;
+    top: 20px;
     transform: translate(-50%, -50%);
   }
 
   .section__member > div:nth-child(2) {
-    left: 22rem;
-    bottom: -21rem;
+    bottom: -275px;
+    left: 330px;
   }
 
   .section__member .section__review__top,

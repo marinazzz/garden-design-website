@@ -66,18 +66,17 @@
     }
 
     /* section member */
-/*
+
     .section__member > div:nth-child(1) {
-        bottom: -403px;
-        left: -181px;
+        right: 180px;
+        top: 20px;
         transform: translate(-50%, -50%);
     }
     
     .section__member > div:nth-child(2) {
-        bottom: -460px;
-        left: 481px;
-        transform: translate(-50%, -50%);
-    }*/
+        bottom: -275px;
+        left: 330px;
+    }
 
 }
 

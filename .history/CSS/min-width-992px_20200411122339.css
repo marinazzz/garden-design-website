@@ -45,7 +45,7 @@
 
     #section__reviews .glide__arrow--right,
     #section__reviews .glide__arrow--left {
-        top: 7rem;
+        top: 7rem
     }
 
     #section__reviews .glide__arrow--right {
@@ -64,20 +64,6 @@
     body > main > div > div > section.section__member > div:nth-child(1) {
         width: 300px;
     }
-
-    /* section member */
-/*
-    .section__member > div:nth-child(1) {
-        bottom: -403px;
-        left: -181px;
-        transform: translate(-50%, -50%);
-    }
-    
-    .section__member > div:nth-child(2) {
-        bottom: -460px;
-        left: 481px;
-        transform: translate(-50%, -50%);
-    }*/
 
 }
 

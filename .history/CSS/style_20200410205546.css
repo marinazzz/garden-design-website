@@ -345,7 +345,7 @@ body {
 
 /*SECTION REVIEWS*/
 
-.section__reviews__container {
+.reviews__bg {
   background: var(--color-brown);
   padding-top: 4rem;
   display: flex;
@@ -359,11 +359,11 @@ div [class="review__items"] {
 }
 
 .review__items,
-.review__items .review__photo {
+.review__items > img {
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-.glide .review__photo {
+.review__items > img {
   width: 20%;
   border-radius: 50%;
 }
@@ -489,12 +489,65 @@ blockquote > footer{
   content: '>';
 }
 
+/*section member*/
+
+.section__member {
+  background: var(--color-brown);
+}
+
+.section__member .section__review__top {
+  width: 85%;
+}
+
+.section__member__wrapp {
+  background: var(--color-light-green);
+  color: var(--color-white);
+  box-sizing: border-box;
+  margin-bottom: 5rem;
+}
+
+
+.section__member__wrapp {
+  width: 85%;
+  margin: 0 auto;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.member__photo {
+  margin: 0 auto;
+}
+
+.member__photo__el {
+  width: 40%;
+}
+
+.section__member p {
+  text-align: left;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1.3rem;
+}
+
+.section__member .section__review__title {
+  color: var(--color-white);
+}
+
+/* SECTION AWARDS*/
+
+#section__awards {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.section__awards__photo {
+  width: 100px;
+}
+
+#section__awards .glide {
+  padding: 1.5rem 0;
+}
 
 /* SECTION REVIEW OPTION 2 */
 
-/* section reviews */
-
-.section__reviews__container {
+.reviews__bg {
   position: static;
   left: 0;
   transform: none;
@@ -541,8 +594,7 @@ blockquote > footer{
 #section__reviews .review__items,
 #section__reviews .glide__wrapp,
 #section__about .review__items,
-#section__experience .review__items,
-.section__member .review__items {
+#section__experience .review__items {
   padding: 0;
 }
 
@@ -567,52 +619,9 @@ blockquote > footer{
   border-bottom-left-radius: 0.5rem;
 }
 
+
 /*section member*/
 
-.section__member {
-  background: var(--color-brown);
-}
-
-.section__member .section__review__top,
-.section__member .review__items {
-  width: 85%;
-}
-
-.section__member .review__items,
-.section__member .section__review__title {
-  color: var(--color-white);
-}
-
-.section__member .review__items {
-  background: var(--color-light-green);
-  box-sizing: border-box;
-}
-
-.section__member__photo {
-  width: 40%;
-}
-
-.section__member p {
-  text-align: left;
-  padding: 0 1rem 1rem 1rem;
-  font-size: 1.3rem;
-  margin: 0;
-}
-
-
-/* SECTION AWARDS*/
-
-#section__awards {
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.section__awards__photo {
-  width: 100px;
-}
-
-#section__awards .glide {
-  padding: 1.5rem 0;
-}
 
 /*FOOTER*/
 
