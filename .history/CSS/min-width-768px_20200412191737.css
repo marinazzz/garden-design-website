@@ -166,15 +166,11 @@
     margin: 0;
   }
 
-  .review__item-photo {
-    width: 100%;
-}
-
-  #section__review .glide__arrow--right {
+  .glide__arrow--right {
     right: 0rem;
   }
-
-  #section__review .glide__arrow--left {
+  
+  .glide__arrow--left {
     left: 0rem;
   }
 

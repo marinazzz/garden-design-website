@@ -166,17 +166,16 @@
     margin: 0;
   }
 
-  .review__item-photo {
-    width: 100%;
-}
+  .glide__arrow--right {
+  }
+  
+  .glide__arrow--left {
+    left: 0rem;
+  }
 
   #section__review .glide__arrow--right {
     right: 0rem;
-  }
-
-  #section__review .glide__arrow--left {
-    left: 0rem;
-  }
+}
 
 
   /* SECTION AWARDS */

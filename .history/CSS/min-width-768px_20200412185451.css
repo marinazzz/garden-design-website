@@ -159,25 +159,19 @@
   #section__review {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
   }
 
   .review__item {
     width: 230px;
-    margin: 0;
   }
 
-  .review__item-photo {
-    width: 100%;
-}
+  
 
-  #section__review .glide__arrow--right {
-    right: 0rem;
-  }
 
-  #section__review .glide__arrow--left {
-    left: 0rem;
-  }
 
+  
 
   /* SECTION AWARDS */
 

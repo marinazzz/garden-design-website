@@ -23,7 +23,7 @@ Object.values(mainGlide).map(carousel => {
   mainGlider.mount();
 })
 
-let reviewGlide = document.querySelectorAll("#section__review .glide");
+let reviewGlide = document.querySelectorAll("#section__review > div:nth-child(1) > div.review__item-wrapp > div > div");
 Object.values(reviewGlide).map(carousel => {
   let reviewSlider = new Glide(carousel, {
     type: 'carousel',

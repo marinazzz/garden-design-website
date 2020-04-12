@@ -611,7 +611,7 @@ blockquote > footer{
 }
 
 #section__awards .glide {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 /*FOOTER*/
@@ -633,7 +633,7 @@ a[href *= "marinazzz"] {
 
 #section__review {
   background: var(--color-brown);
-  padding: 1.5rem 0 2.5rem 0;
+  padding: 1rem 0;
 }
 
 /*shared style for items in section*/
@@ -685,9 +685,6 @@ a[href *= "marinazzz"] {
   color: var(--color-white);
 }
 
-.review__item--color-brown {
-  color: var(--color-brown);
-}
 
 /*images inside item*/
 .review__item-photo {
@@ -696,10 +693,8 @@ a[href *= "marinazzz"] {
 
 
 /*list & paragraph inside item*/
-
-.review__item-txt,
-.review__link {
-  line-height: 1.8rem;
+.review__item-txt {
+  line-height: 1.6rem;
   font-size: 1.3rem;
   text-align: left;
 }
@@ -710,13 +705,13 @@ a[href *= "marinazzz"] {
   list-style-position: inside;
 }
 
-.review__item-li {
-  list-style-type: none;
-  line-height: 2.4rem;
+.review__item-list::before {
+  content: '-';
 }
 
-.review__item-li::before {
-  content: '-';
+.review__item-li {
+  list-style-type: none;
+  padding: 0.5rem;
 }
 
 .review__link {
@@ -737,8 +732,6 @@ a[href *= "marinazzz"] {
 
 .review__txt {
   quotes: "“" "”" "‘" "’";
-  line-height: 1.5rem;
-  font-size: 1.1rem;
 }
 
 .review__txt::before {
@@ -755,7 +748,7 @@ a[href *= "marinazzz"] {
 
 /*arrows in slider*/
 #section__review .glide__arrow  {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-color: transparent;
   box-shadow: none;
   border-radius: 50%;

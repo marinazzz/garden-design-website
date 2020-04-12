@@ -737,8 +737,8 @@ a[href *= "marinazzz"] {
 
 .review__txt {
   quotes: "“" "”" "‘" "’";
-  line-height: 1.5rem;
-  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .review__txt::before {
@@ -755,7 +755,7 @@ a[href *= "marinazzz"] {
 
 /*arrows in slider*/
 #section__review .glide__arrow  {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-color: transparent;
   box-shadow: none;
   border-radius: 50%;

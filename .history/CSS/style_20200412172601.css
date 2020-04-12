@@ -344,7 +344,7 @@ body {
 }
 
 /*SECTION REVIEWS*/
-/*
+
 .section__reviews__container {
   background: var(--color-brown);
   padding-top: 4rem;
@@ -430,7 +430,7 @@ blockquote > footer{
 }
 
 /* SECTION ABOUT */
-/*
+
 .about__txt,
 .about__list,
 .experience__txt {
@@ -467,7 +467,7 @@ blockquote > footer{
 }*/
 
 /* SECTION EXPERIENCE */
-/*
+
 #section__experience,
 .experience__list__item,
 .experience__link,
@@ -493,7 +493,7 @@ blockquote > footer{
 /* SECTION REVIEW OPTION 2 */
 
 /* section reviews */
-/*
+
 .section__reviews__container {
   position: static;
   left: 0;
@@ -568,7 +568,7 @@ blockquote > footer{
 }
 
 /*section member*/
-/*
+
 .section__member {
   background: var(--color-brown);
 }
@@ -611,7 +611,7 @@ blockquote > footer{
 }
 
 #section__awards .glide {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 /*FOOTER*/
@@ -633,7 +633,6 @@ a[href *= "marinazzz"] {
 
 #section__review {
   background: var(--color-brown);
-  padding: 1.5rem 0 2.5rem 0;
 }
 
 /*shared style for items in section*/
@@ -662,7 +661,6 @@ a[href *= "marinazzz"] {
 
 .review__item-wrapp {
   padding: 1rem;
-  margin-bottom: 2rem;
 }
 
 .section__review__title {
@@ -685,9 +683,6 @@ a[href *= "marinazzz"] {
   color: var(--color-white);
 }
 
-.review__item--color-brown {
-  color: var(--color-brown);
-}
 
 /*images inside item*/
 .review__item-photo {
@@ -696,33 +691,9 @@ a[href *= "marinazzz"] {
 
 
 /*list & paragraph inside item*/
-
-.review__item-txt,
-.review__link {
-  line-height: 1.8rem;
-  font-size: 1.3rem;
-  text-align: left;
+.review__item-txt {
+  
 }
-
-.review__item-list {
-  margin: 0;
-  padding: 0;
-  list-style-position: inside;
-}
-
-.review__item-li {
-  list-style-type: none;
-  line-height: 2.4rem;
-}
-
-.review__item-li::before {
-  content: '-';
-}
-
-.review__link {
-  text-decoration: none;
-}
-
 
 /*1.item with slider*/
 
@@ -730,41 +701,3 @@ a[href *= "marinazzz"] {
   width: 20%;
   border-radius: 50%;
 }
-
-.review__slide-title {
-  font-weight: bold;
-}
-
-.review__txt {
-  quotes: "“" "”" "‘" "’";
-  line-height: 1.5rem;
-  font-size: 1.1rem;
-}
-
-.review__txt::before {
-  content: open-quote;
-}
-
-.review__txt::after {
-  content: close-quote;
-}
-
-.review__author{
-  font-style: italic;
-}
-
-/*arrows in slider*/
-#section__review .glide__arrow  {
-  font-size: 2rem;
-  border-color: transparent;
-  box-shadow: none;
-  border-radius: 50%;
-  line-height: 0;
-  transition: all 200ms ease-in-out;
-}
-
-.fa-chevron-circle-left, 
-.fa-chevron-circle-right {
-  color: var(--color-dark-green);
-}
-
