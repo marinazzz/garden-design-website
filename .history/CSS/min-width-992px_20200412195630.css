@@ -49,8 +49,10 @@
     /* SECTION GALLERY */
 
     #section__gallery {
-        margin-top: 0;
+        -webkit-margin-bottom-collapse: 0;
     }
+
+    
 
     /*SECTION REVIEW ORGANIZED*/
 
@@ -120,6 +122,18 @@
 
     .container__menu {
         max-width: 2000px;
+    }
+
+    
+
+    /*.container__item-bottom,
+    .container__items {
+        padding: 0;
+    }
+
+    #menu,
+    .container__item {
+        padding-left: 50rem;
     }
 
     /* SECTION REVIEWS */

@@ -23,20 +23,16 @@
     .section__container {
         max-width: 2000px;
         margin: 0 auto;
-        padding-bottom: 0;
     }
 
     /* SECTIONS SERVICES*/
 
     .services__photo__wrapp > button {
-        bottom: -29%;
+        bottom: -15%;
     }
 
-    #section__services {
-        padding-bottom: 5rem;
-        border-left: #00000024 solid 2px;
-        border-right: #00000024 solid 2px;
-    }
+    /*SECTION GALLERY*/
+
     .gallery__wrapp {
         justify-content: space-around;
     }
@@ -44,13 +40,7 @@
     .services__wrapp {
         padding: 0;
     }
-
-
-    /* SECTION GALLERY */
-
-    #section__gallery {
-        margin-top: 0;
-    }
+    
 
     /*SECTION REVIEW ORGANIZED*/
 
@@ -122,9 +112,23 @@
         max-width: 2000px;
     }
 
+    /*.container__item-bottom,
+    .container__items {
+        padding: 0;
+    }
+
+    #menu,
+    .container__item {
+        padding-left: 50rem;
+    }
+
     /* SECTION REVIEWS */
 
-    .review__item {
+    .review__wrapp,
+    .glide__wrapp,
+    .section__member .review__items,
+    .section__member,
+    body > main > div > div > section.section__member > div:nth-child(1) {
         width: 600px;
     }
 
