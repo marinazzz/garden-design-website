@@ -510,3 +510,12 @@ a[href *= "marinazzz"] {
   color: white;
   text-decoration: none;
 }
+
+
+/*shared style for items in section*/
+
+.review__slide-content,
+.review__slider-wrapp {
+  width: 85%;
+  margin: 0 auto;
+}

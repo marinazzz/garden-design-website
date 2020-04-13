@@ -1,62 +1,44 @@
 
-//BUTTON
-let mainNav = document.getElementById("menu");
+document.addEventListener('DOMContentLoaded', function () {
+  //BUTTON
+  let mainNav = document.getElementById("menu");
 
-let navBarToggle = document.querySelector(".menu__toggle");
+  let navBarToggle = document.querySelector(".menu__toggle");
 
-navBarToggle.addEventListener("click", function () {
+  navBarToggle.addEventListener("click", function () {
+    mainNav.classList.toggle("menu-opened");
+  });
 
-  mainNav.classList.toggle("menu-opened");
-});
-
-//GLIDE PLUGIN
-
-let mainGlide = document.querySelectorAll("#main-photo > div");
-Object.values(mainGlide).map(carousel => {
-  let mainGlider = new Glide(carousel, {
+  //GLIDE PLUGIN
+  const mainGlide = new Glide("#main-photo > div", {
     autoplay: true,
     perView: 1,
     autoplay: 4000,
-    animationDuration: 1000
-
+    animationDuration: 2000
   });
-  mainGlider.mount();
-})
+  mainGlide.mount();
 
-let reviewGlide = document.querySelectorAll("#section__review .glide");
-Object.values(reviewGlide).map(carousel => {
-  let reviewSlider = new Glide(carousel, {
+  let reviewSlider = new Glide("#section__review > div", {
     type: 'carousel',
     animationDuration: 1000,
     gap: 0
-
-    
   });
   reviewSlider.mount();
 
-});
-
-let awardsGlide = document.querySelectorAll("#section__awards> div");
-Object.values(awardsGlide).map(carousel => {
-  let awardsSlider = new Glide(carousel, {
+  let awardsSlider = new Glide("#section__awards > div", {
     type: 'carousel',
     autoplay: true,
     perView: 5,
     autoplay: 5000,
     animationDuration: 1000,
-    gap: 0,
     breakpoints: {
       768: {
         perView: 4
       },
-
       500: {
         perView: 3
       },
-
     }
-
   });
   awardsSlider.mount();
-
 });
