@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
     type: 'carousel',
     autoplay: true,
     perView: 5,
-    autoplay: 5000,
-    animationDuration: 1000,
+    autoplay: 1000,
+    animationDuration: 2000,
     breakpoints: {
       768: {
         perView: 4

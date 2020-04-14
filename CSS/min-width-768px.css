@@ -10,6 +10,8 @@
 
     #section__navigation {
       background: var(--color-main-green);
+      position: relative;
+      z-index: 100;
     }
 
    #section__navigation > div > div.section__navigation-items > div.section__navigation-element.section__navigation--color-green,
@@ -68,7 +70,7 @@
      line-height: 4.5rem;
      text-align: center;
    }
-  
+
 
   .menu__item:hover {
     background-color:#272727;
@@ -82,9 +84,11 @@
   .section__navigation-element {
     font-weight: bold;
     letter-spacing: 0.1rem;
+    border-left: 1px #f3f2ed solid;
+    padding-left: 1rem;
   }
 
- 
+
 
    /*SECTION MAIN SLIDER*/
  
@@ -147,10 +151,21 @@
   justify-content: space-around;
   }
 
+  .gallery__item-wrapp {
+    margin: 0 0.5rem;
+  }
+
   .gallery__txt-wrapp {
     display: block;
+    width: 100%;
     margin: auto;
-    padding-bottom: 1rem;
+    padding: 0.8rem 0;
+  }
+
+  #section__gallery .gallery__item-title {
+    text-align: end;
+    padding: 0 1rem;
+    margin: 0;
   }
   
   .container,
@@ -197,6 +212,15 @@
 
   .section__footer-area__container {
     display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section__items--centered {
+    margin: 0;
+  }
+
+  .section__footer-area__container {
+    padding: 0;
   }
 
 }
