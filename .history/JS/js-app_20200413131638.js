@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   //GLIDE PLUGIN
   const mainGlide = new Glide("#main-photo > div", {
-    type: 'carousel',
     autoplay: true,
     perView: 1,
     autoplay: 4000,
@@ -39,8 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
       500: {
         perView: 3
       },
-    },
-    gap: 0
+    }
   });
   awardsSlider.mount();
 });

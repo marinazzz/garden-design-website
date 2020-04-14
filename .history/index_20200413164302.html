@@ -32,53 +32,59 @@
 
 <body>
   <header>
-    <section id="section__navigation">
-      <div class="section__navigation-container section__navigation--color-green section__container">
-        <div class="section__navigation-photo">
+      <div class="container__menu--small">
+        <!--grid container-->
+        <div class="container__logo">
+          <!--1.column-->
           <img class="logo"
                src="images/BD-hagedesign-500px.png"
-               alt="BD hagedseign logo" />
+               alt="BD hagedseign logo">
         </div>
-        <div class="section__navigation-items">
-          <div class="section__navigation-element section__navigation--color-green">
+        <div class="container__items--small container__items">
+          <!--2.column-->
+          <div class="container__item">
+            <!--1.row-->
             <a href="mailto:info@prohage.no"
-               class="section__navigation-txt"><i class="far fa-envelope section__navigation--color-green icon--padding"></i>info@prohage.no</a>
+               class="container__item-txt"><i class="far fa-envelope"></i>info@prohage.no</a>
             <a href="tlf:45511111"
-               class="section__navigation-txt"><i class="fas fa-phone section__navigation--color-green icon--padding"></i>45511111</a>
+               class="container__item-txt"><i class="fas fa-phone"></i>45511111</a>
           </div>
-          <div class="section__navigation-element">
-            <button class="menu__toggle section__navigation--color-green">
+          <div class="container__item-bottom">
+            <!--2.row-->
+            <button class="menu__toggle">
               <i class="fas fa-bars"></i>
             </button>
             <nav id="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="section__navigation-link"
+                  <a class="menu__link"
                      href="home">Home</a>
                 </li>
                 <li class="menu__item">
-                  <a class="section__navigation-link"
-                     href="#services">Tjenester</a>
+                  <a class="menu__link"
+                     href="#services">Våre tjenester</a>
                 </li>
                 <li class="menu__item">
-                  <a class="section__navigation-link"
-                     href="#gallery">Portfølje</a>
+                  <a class="menu__link"
+                     href="#gallery">Galleri</a>
                 </li>
                 <li class="menu__item">
-                  <a class="section__navigation-link"
-                     href="#about">Om meg</a>
+                  <a class="menu__link"
+                     href="#about">Om oss</a>
                 </li>
                 <li class="menu__item">
-                  <a class="section__navigation-link"
+                  <a class="menu__link"
+                     href="#blog">Blogg</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link"
                      href="kontakt">Kontakt</a>
                 </li>
               </ul>
             </nav>
           </div>
-
         </div>
       </div>
-    </section>  
     <section id="main-photo" 
              class="section__container">
       <div class="glide">
@@ -126,9 +132,9 @@
       </div>
     </section>
   </header>
-  <main>
+  <main class="section__container">
     <section id="section__services"
-             class="section__container section__container--gray-line">
+             class="section__container">
       <h1 class="services__title sections__title">Tjenester</h1>
       <div class="container">
         <section class="services__item">
@@ -176,7 +182,7 @@
       </div>
     </section>
     <section id="section__gallery"
-             class="section__container section__container--gray-line">
+             class="section__container">
       <h1 class="gallery__title sections__title">Våre prosjekter</h1>
       <div class="container gallery__wrapp">
         <div class="container gallery__items">
@@ -213,7 +219,7 @@
             </div>  
       </section>
       <section id="section__review"
-               class="section__container section__container--gray-line">
+               class="section__container">
         <div class="section__review__first-col">
           <div class="review__item review__item--color-beige">
             <div class="review__item-top">
@@ -379,7 +385,7 @@
       </section>
         
       <section id="section__awards"
-               class="section__container section__container--gray-line">
+               class="section__container">
       <h1 class="sections__title services__title">Priser</h1>
           <div class="glide">
             <div class="glide__track" data-glide-el="track">
