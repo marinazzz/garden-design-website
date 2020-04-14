@@ -33,7 +33,8 @@ body {
 #section__services,
 #section__gallery,
 #section__review,
-#section__awards {
+#section__awards,
+#section__footer-area {
   box-sizing: border-box;
 }
 
@@ -411,6 +412,7 @@ body {
   line-height: 1.8rem;
   font-size: 1.3rem;
   text-align: left;
+  padding-left: 0.5rem;
 }
 
 .review__item-list {
@@ -426,6 +428,7 @@ body {
 
 .review__item-li::before {
   content: '-';
+  font-weight: bold;
 }
 
 .review__link {
@@ -482,6 +485,10 @@ body {
 
 /* SECTION AWARDS*/
 
+#section__awards {
+  border-bottom:  lightgray 1px solid;
+}
+
 .section__awards__photo {
   width: 100px;
 }
@@ -491,18 +498,79 @@ body {
 }
 
 
+/* SECTION FOOTER-AREA */
+
+/*colors*/
+.footer--color-dark {
+  color: var(--color-dark-green);
+  background: var(--color-white);
+}
+
+/*layout*/
+#section__footer-area {
+  padding-top: 2rem;
+}
+
+.section__footer-area__container {
+  padding: 0 3rem;
+}
+
+.section__items--centered {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.section__footer-area__item {
+  /*width: 300px;*/
+  padding: 0.5rem;
+  /*border: lightgray 1px solid;*/
+  margin-bottom: 2rem;
+}
+
+
+/*title*/
+
+.section__footer-area__title {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+}
+
+.section__footer-area__title::before {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 50%;
+  border: 1px solid var(--color-main-green);
+}
+
+/*items*/
+
+#section__footer-area .review__item-li::before {
+  content: '-';
+  padding-right: 0.5rem;
+}
+
+#section__footer-area .review__item-li::before, 
+#section__footer-area .review__link:hover {
+  color: var(--color-main-green);
+}
 
 /*FOOTER*/
 
 .footer__main {
-  background: #333333;
+  background: var(--color-main-green);
   padding: 0.5rem;
-  margin-top: 20rem; /*temporary*/
+ /* margin-top: 20rem; /*temporary*/
   color: var(--color-white);
+  letter-spacing: 0.15rem;
 }
 
 a[href *= "marinazzz"] {
   color: white;
   text-decoration: none;
+  padding-left: 1rem;
+  font-size: 1.3rem;
 }
 

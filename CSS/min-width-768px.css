@@ -69,6 +69,7 @@
      text-align: center;
    }
   
+
   .menu__item:hover {
     background-color:#272727;
   }
@@ -108,9 +109,9 @@
    }
    
    .gallery__wrapp {
-   padding: 0;  
-   flex-wrap: wrap;
-   justify-content: space-around;
+     padding: 0;  
+     flex-wrap: wrap;
+     justify-content: space-around;
    }
  
    .gallery__txt-wrapp {
@@ -185,9 +186,17 @@
 
 
   /* SECTION AWARDS */
-
+  
   .section__awards__photo {
     width: 150px;
+  }
+
+
+
+/* SECTION FOOTER-AREA */
+
+  .section__footer-area__container {
+    display: flex;
   }
 
 }
