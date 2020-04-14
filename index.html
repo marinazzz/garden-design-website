@@ -54,19 +54,19 @@
               <ul class="menu__list">
                 <li class="menu__item">
                   <a class="section__navigation-link"
-                     href="home">Home</a>
+                     href="#section__navigation">Home</a>
                 </li>
                 <li class="menu__item">
                   <a class="section__navigation-link"
-                     href="#services">Tjenester</a>
+                     href="#section__services">Tjenester</a>
                 </li>
                 <li class="menu__item">
                   <a class="section__navigation-link"
-                     href="#gallery">Portfølje</a>
+                     href="#section__gallery">Portfølje</a>
                 </li>
                 <li class="menu__item">
                   <a class="section__navigation-link"
-                     href="#about">Om meg</a>
+                     href="#section__review">Om meg</a>
                 </li>
                 <li class="menu__item">
                   <a class="section__navigation-link"
@@ -75,7 +75,6 @@
               </ul>
             </nav>
           </div>
-
         </div>
       </div>
     </section>  
@@ -96,12 +95,21 @@
             </li>
             <li class="glide__slide">
               <img class="main-photo__item"
+                   srcset="images/bloom-blooming-blur-2000.jpg 2000w, 
+                                         images/bloom-blooming-blur-1000.jpg 1000w"
+                   sizes="(min-width: 1440px) 2000px, 100vw"
+                   src="images/bloom-blooming-blur-1000.jpg"
+                   alt="Garden designed by proffesional" />
+              <h1 class="main-photo__title">Kompetanse</h1>
+            </li>
+            <li class="glide__slide">
+              <img class="main-photo__item"
                    srcset="images/main-header-photo-2000.jpg 2000w, 
                                           images/main-header-photo-1000.jpg 1000w"
                    sizes="(min-width: 1440px) 2000px, 100vw"
                    src="images/main-header-photo-1000.jpg"
                    alt="Garden and plants" />
-              <h1 class="main-photo__title">Ta kontakt allerede idag</h1>
+              <h1 class="main-photo__title">Erfaring</h1>
             </li>
             <li class="glide__slide">
               <img class="main-photo__item"
@@ -110,7 +118,7 @@
                    sizes="(min-width: 1440px) 2000px, 100vw"
                    src="images/header-photo-1000.jpg"
                    alt="Garden designed by proffesional" />
-              <h1 class="main-photo__title">Rådgiving og tipser</h1>
+              <h1 class="main-photo__title">Beste tjenester i Norge</h1>
             </li>
             <li class="glide__slide">
               <img class="main-photo__item"
@@ -119,7 +127,7 @@
                    sizes="(min-width: 1440px) 2000px, 100vw"
                    src="images/bloom-blooming-blur-1000.jpg"
                    alt="Garden designed by proffesional" />
-              <h1 class="main-photo__title">Følg vår hageblogg</h1>
+              <h1 class="main-photo__title">Ta kontakt i dag</h1>
             </li>
           </ul>
         </div>
@@ -148,7 +156,7 @@
         <section class="services__item">
           <div class="item-title__wrapp">
             <i class="fas fa-circle"></i>
-            <h2 class="services__item-title">Hagekonsultasjon</h2>
+            <h2 class="services__item-title">Hageskisse</h2>
           </div>
           <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
             ex aperiam dolores corporis iusto!</p>
@@ -162,7 +170,7 @@
         <section class="services__item">
           <div class="item-title__wrapp">
             <i class="fas fa-circle"></i>
-            <h2 class="services__item-title">Hageskise</h2>
+            <h2 class="services__item-title">Konsultasjon</h2>
           </div>
           <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
             ex aperiam dolores corporis iusto!</p>
@@ -177,7 +185,7 @@
     </section>
     <section id="section__gallery"
              class="section__container section__container--gray-line">
-      <h1 class="gallery__title sections__title">Våre prosjekter</h1>
+      <h1 class="gallery__title sections__title">Mine prosjekter</h1>
       <div class="container gallery__wrapp">
         <div class="container gallery__items">
           <div class="gallery__item-wrapp">
@@ -205,10 +213,10 @@
                     </div>
                 </div>
                 <div class="gallery__txt-wrapp">
-                    <h2 class="gallery__item-title services__item-title">See alle prosjekter
+                    <h2 class="gallery__item-title services__item-title">Se min portfølje
                         <i class="fas fa-angle-double-right"></i>
                     </h2>
-                    <p class="gallery__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni neque, ut incidunt reprehenderit fugiat possimus.</p>     
+                    <!--<p class="gallery__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni neque, ut incidunt reprehenderit fugiat possimus.</p>    --> 
                 </div>
             </div>  
       </section>
