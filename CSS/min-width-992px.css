@@ -20,7 +20,7 @@
     
    /* HEADER */
 
-    .logo {
+    .nav__logo {
         max-height: 7rem;
     }
 
@@ -29,13 +29,13 @@
         padding: 0;
     }
 
-    #menu {
+    .menu {
         margin: 0 auto;
         text-align: center;
        /* max-width: 800px;*/
     }
 
-    .main-photo__item {
+    .glide__item-img {
         width: 100%;
     }
 
@@ -43,14 +43,14 @@
 
     /* SECTIONS SERVICES*/
 
-    .services__photo__wrapp > button {
+    .services__item-img > button {
         bottom: -29%;
     }
 
-    #section__services {
+    .section__services {
         padding-bottom: 7rem;
     }
-    .gallery__wrapp {
+    .container--green {
         justify-content: space-around;
     }
 
@@ -61,13 +61,13 @@
 
     /* SECTION GALLERY */
 
-    #section__gallery {
+    .section__gallery {
         margin-top: 0;
     }
 
-    /*SECTION REVIEW ORGANIZED*/
+    /*SECTION REVIEWS  ORGANIZED*/
 
-    .review__item {
+    .review__items {
         width: 300px;
     }
 }
@@ -76,28 +76,28 @@
 
     /*HEADER*/
 
-    #menu {
+    .menu {
         text-align: right;
     }
 
     /* MAIN PHOTO */
     
-    .main-photo__title {
+    .glide__item-h1 {
         font-size: 3rem;
         letter-spacing: 0.5rem;
     }
 
     /* SECTION REVIEWS */
     
-    .review__item {
+    .review__items {
         width: 350px;
     }
     
-    #section__reviews .glide__arrow--right {
+    .section__reviews .glide__arrow--right {
         right: 2rem;
     }
     
-    #section__reviews .glide__arrow--left {
+    .section__reviews .glide__arrow--left {
         left: 2rem;
     }
 }

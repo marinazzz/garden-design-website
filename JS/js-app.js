@@ -1,32 +1,32 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   //BUTTON
-  let mainNav = document.getElementById("menu");
+  let mainNav = document.querySelector(".menu");
 
-  let navBarToggle = document.querySelector(".menu__toggle");
+  let navBarToggle = document.querySelector(".nav__button");
 
   navBarToggle.addEventListener("click", function () {
     mainNav.classList.toggle("menu-opened");
   });
 
   //GLIDE PLUGIN
-  const mainGlide = new Glide("#main-photo > div", {
+  const mainGlide = new Glide("section.slider > div", {
     type: 'carousel',
     autoplay: true,
     perView: 1,
-    autoplay: 4000,
+    autoplay: 3000,
     animationDuration: 2000
   });
   mainGlide.mount();
 
-  let reviewSlider = new Glide("#section__review > div", {
+  let reviewSlider = new Glide("section.section__reviews > div", {
     type: 'carousel',
     animationDuration: 1000,
     gap: 0
   });
   reviewSlider.mount();
 
-  let awardsSlider = new Glide("#section__awards > div", {
+  let awardsSlider = new Glide("section.section__awards > div", {
     type: 'carousel',
     autoplay: true,
     perView: 5,
