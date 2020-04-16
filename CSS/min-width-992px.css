@@ -11,6 +11,7 @@
         max-width: 1200px;
         margin: 0 auto;
         padding-bottom: 0;
+        box-sizing: border-box;
     }
 
     .section__container--gray-line {
@@ -64,7 +65,17 @@
     /*SECTION REVIEWS ORGANIZED*/
 
     .review__items {
-        width: 300px;
+        width: 310px;
+    }
+}
+
+
+@media screen and (min-width: 1120px) {
+    
+    /* SECTION REVIEWS */
+    
+    .review__items {
+        width: 340px;
     }
 }
 
@@ -84,7 +95,7 @@
     /* SECTION REVIEWS */
     
     .review__items {
-        width: 350px;
+        width: 370px;
     }
     
 }

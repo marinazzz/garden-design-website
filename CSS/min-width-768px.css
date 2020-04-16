@@ -28,7 +28,7 @@
 
     .nav__logo-wrapp {
      position: relative;
-     width: 1.5rem;
+     width: 3rem;
    }
  
    .nav__logo {
@@ -62,32 +62,41 @@
      flex-direction: row;
      justify-content: center;
      align-items: center;
-     padding-left: 30rem;
+     padding-left: 18rem;
    }
  
    .menu__item {
      display: block;
      flex-grow: 1;
      margin: 0;
-     line-height: 4.5rem;
+     line-height: 4.8rem;
      text-align: center;
    }
+   
+   .menu__item::after {
+    bottom: 1.5rem;
+    display: block;
+    content: "";
+    height: 2rem;
+    position: absolute;
+    border-right: 0.1rem #f3f2ed solid;
+   }
+
+ 
+    div.nav__items > div:nth-child(2) > nav > ul > li:nth-child(1)::after {
+     border-right: none;
+    }
 
 
   .menu__item:hover {
-    background-color:#272727;
+    background-color: rgb(75, 75, 75);
   }
 
-  .menu__item:active {
-    color:black;
-  }
 
   .menu__item-link, 
   .nav__item {
     font-weight: bold;
     letter-spacing: 0.1rem;
-    border-left: 1px #f3f2ed solid;
-    padding-left: 1rem;
   }
 
 
@@ -107,6 +116,15 @@
    /* SECTIONS */
  
    /* SECTION SERVICES */
+    
+   #section-services, 
+   #section-portfolio,
+   #section-about,
+   .section-awards,
+   .glide,
+   #section-contact {
+     box-sizing: border-box;
+   }
 
    .container {
      flex-direction: row;
@@ -155,7 +173,7 @@
   }
 
   .review__items {
-    width: 230px;
+    width: 240px;
     margin: 0;
   }
 
@@ -192,4 +210,13 @@
     margin: 0;
   }
 
+}
+
+
+@media screen and (min-width: 850px) {
+  /*SECTION REVIEWS*/
+
+  .review__items {
+    width: 270px;
+}
 }
