@@ -32,9 +32,9 @@
 
 <body>
   <header>
-    <section class="nav" 
+    <section class="nav section--light-shadow" 
              class="section--shadow">
-      <div class="nav__container section__navigation--color-green section__container">
+      <div class="nav__container nav--color-green section__container">
         <div class="nav__logo-wrapp">
           <img class="nav__logo"
                src="images/BD-hagedesign-500px.png"
@@ -42,14 +42,14 @@
                <a href="#home"></a>
         </div>
         <div class="nav__items">
-          <div class="nav__item section__navigation--color-green">
+          <div class="nav__item nav--color-green">
             <a href="mailto:info@bd-hagedesign.no"
-               class="nav__item-link"><i class="far fa-envelope section__navigation--color-green icon--padding"></i>info@prohage.no</a>
+               class="nav__item-link"><i class="far fa-envelope nav--color-green icon--padding"></i>info@prohage.no</a>
             <a href="tlf:45511111"
-               class="nav__item-link"><i class="fas fa-phone section__navigation--color-green icon--padding"></i>45511111</a>
+               class="nav__item-link"><i class="fas fa-phone nav--color-green icon--padding"></i>45511111</a>
           </div>
           <div class="nav__item">
-            <button class="nav__button section__navigation--color-green">
+            <button class="nav__button nav--color-green">
               <i class="fas fa-bars"></i>
             </button>
             <nav class="menu">
@@ -60,19 +60,19 @@
                 </li>
                 <li class="menu__item">
                   <a class="menu__item-link"
-                     href="#section__services">Tjenester</a>
+                     href="#section-services">Tjenester</a>
                 </li>
                 <li class="menu__item">
                   <a class="menu__item-link"
-                     href="#section__gallery">Portfølje</a>
+                     href="#section-portfolio">Portfølje</a>
                 </li>
                 <li class="menu__item">
                   <a class="menu__item-link"
-                     href="#section__review">Om meg</a>
+                     href="#section-reviews">Om meg</a>
                 </li>
                 <li class="menu__item">
                   <a class="menu__item-link"
-                     href="#kontakt">Kontakt</a>
+                     href="#section-contact">Kontakt</a>
                 </li>
               </ul>
             </nav>
@@ -81,7 +81,7 @@
       </div>
     </section>  
     <section class="slider
-                    section__container section--shadow">
+                    section__container section--light-shadow">
       <div class="glide">
         <div class="glide__track"
              data-glide-el="track">
@@ -137,9 +137,9 @@
     </section>
   </header>
   <main>
-    <section class="section__services
-                   section__container section__container--gray-line section--shadow">
-      <h1 class="sections__h1 sections__h1--green title--shadow">Tjenester</h1>
+    <section id= "section-services" 
+             class="section__container section__container--gray-line section--shadow">
+      <h1 class="sections__h1 sections__h1--green heading--shadow">Tjenester</h1>
       <div class="container">
         <section class="services__items">
           <div class="services__item-h2">
@@ -147,12 +147,12 @@
             <h2 class="section__h2">Hagedesign</h2>
           </div>
           <p class="services__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
-            ex aperiam dolores corporis iusto!</p>
+                                      ex aperiam dolores corporis iusto!</p>
           <div class="services__item-img">
-            <img class="services__item-img--elipse"
+            <img class="services__item-img--elipse section--light-shadow"
                  src="images/Hagedesign.jpg"
                  alt="Hagedesigner tegner" />
-            <button class="primary__button services__button">les mer</button>
+            <button class="primary-button services__item-button section--light-shadow">les mer</button>
           </div>
         </section>
         <section class="services__items">
@@ -161,12 +161,12 @@
             <h2 class="section__h2">Hageskisse</h2>
           </div>
           <p class="services__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
-            ex aperiam dolores corporis iusto!</p>
+                                      ex aperiam dolores corporis iusto!</p>
           <div class="services__item-img">
-            <img class="services__item-img--elipse"
+            <img class="services__item-img--elipse section--light-shadow"
                  src="images/skisse.jpg"
                  alt="Hagekonsultasjon med hagedesigner" />
-            <button class="primary__button services__button">les mer</button>
+            <button class="primary-button services__item-button section--light-shadow">les mer</button>
           </div>
         </section>
         <section class="services__items">
@@ -175,21 +175,21 @@
             <h2 class="section__h2">Konsultasjon</h2>
           </div>
           <p class="services__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
-            ex aperiam dolores corporis iusto!</p>
+                                      ex aperiam dolores corporis iusto!</p>
           <div class="services__item-img">
-            <img class="services__item-img--elipse"
+            <img class="services__item-img--elipse section--light-shadow"
                  src="images/hage-konsultasjon.jpg"
                  alt="Hagedesigner hjelp" />
-            <button class="primary__button services__button">les mer</button>
+            <button class="primary-button services__item-button section--light-shadow">les mer</button>
           </div>
         </section>
       </div>
     </section>
-    <section class="section__gallery 
-                    section__container section__container--gray-line section--shadow ">
-      <h1 class="sections__h1 sections__h1--dark-green title--shadow">Mine prosjekter</h1>
+    <section id="section-portfolio" 
+             class="section-gallery section__container section__container--gray-line section--shadow ">
+      <h1 class="sections__h1 sections__h1--dark-green heading--shadow">Mine prosjekter</h1>
       <div class="container container--green">
-        <div class="container gallery__items">
+        <div class="gallery__items container">
           <div class="gallery__item">
             <img class="gallery__item-img"
                  src="images/gallery-photo1-1000.jpg"
@@ -210,15 +210,14 @@
                     <h2 class="section__h2 section__h2--dark-green">Se min portfølje
                         <i class="fas fa-angle-double-right"></i>
                     </h2>
-                    <!--<p class="gallery__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni neque, ut incidunt reprehenderit fugiat possimus.</p>    --> 
                 </div>
             </div>  
       </section>
-      <section class="section__reviews
-                      section__container section__container--gray-line section--shadow">
+      <section id="section-about" 
+                class="section-reviews section__container section__container--gray-line section--shadow">
         <div class="reviews__item--col1">
           <div class="review__items review__item--color-beige item--shadow">
-            <div class="review__item--brown title--shadow">
+            <div class="review__item--brown heading--shadow">
              </div>
                 <div class="review__item">
                     <h1 class="review__item-h1">Referanser</h1>
@@ -228,7 +227,7 @@
                           <ul class="glide__slides">
                             <li class="glide__slide glide__slide--active">
                               <div class="glide__content">
-                                <img class="review__item-img" src="images/review-picture1.jpg" alt="Hagedesign terrase" />
+                                <img class="review__item-img section--light-shadow" src="images/review-picture1.jpg" alt="Hagedesign terrase" />
                                 <h2 class="review__item-h2--bold">Beste hagehjelp</h2>
                                 <div class="review__item-icon">
                                   <i class="fas fa-star"></i>
@@ -249,7 +248,7 @@
                             </li>
                             <li class="glide__slide glide__slide--active">
                               <div class="glide__content">
-                                <img class="review__item-img" src="images/review-picture2.jpg" alt="Hagedesign terrase" />
+                                <img class="review__item-img section--light-shadow" src="images/review-picture2.jpg" alt="Hagedesign terrase" />
                                 <h2 class="review__item-h2--bold">Tussen takk</h2>
                                 <div class="review__item-icon">
                                   <i class="fas fa-star"></i>
@@ -270,7 +269,7 @@
                             </li>
                             <li class="glide__slide glide__slide--active">
                               <div class="glide__content">
-                                <img class="review__item-img" src="images/review-picture3.jpg" alt="Hagedesign terrase" />
+                                <img class="review__item-img section--light-shadow" src="images/review-picture3.jpg" alt="Hagedesign terrase" />
                                 <h2 class="review__item-h2--bold">Anbefaler</h2>
                                 <div class="review__item-icon">
                                   <i class="fas fa-star"></i>
@@ -304,7 +303,7 @@
                 </div> 
            </div>        
           <div class="review__items review__item--color-green item--shadow">
-            <div class="review__item--brown title--shadow"> 
+            <div class="review__item--brown heading--shadow"> 
             </div>
             <div class="review__item">
               <h1 class="review__item-h1">Medlem av</h1>
@@ -316,7 +315,7 @@
         </div>
         <div class="reviews__item--col2">
           <div class="review__items review__item--color-green item--shadow">
-            <div class="review__item--brown title--shadow"> 
+            <div class="review__item--brown heading--shadow"> 
             </div>
             <div class="review__item">
               <h1 class="review__item-h1">Kompetanse</h1>
@@ -324,21 +323,21 @@
                 Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
                 Vero dicta blanditiis quidem est.Dolorem nemo Vero dicta blanditiis quidem est.Dolorem nemot
               </p>
-              <ul class="review__item-list">
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
               </ul>
             </div>
@@ -346,28 +345,28 @@
         </div>
         <div class="reviews__item--col13">
           <div class="review__items review__item--color-beige item--shadow">
-            <div class="review__item--brown title--shadow"> 
+            <div class="review__item--brown heading--shadow"> 
             </div>
             <div class="review__item">
               <h1 class="review__item-h1">Erfaring</h1>
               <p class="review__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
               </p>
-              <ul class="review__item-list">
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="review__items review__item--color-green item--shadow">
-            <div class="review__item--brown title--shadow"> 
+            <div class="review__item--brown heading--shadow"> 
             </div>
             <div class="review__item">
               <h1 class="review__item-h1">Medlem av</h1>
@@ -379,73 +378,69 @@
           </div>
         </div>
       </section>
-      <section class="section__awards
+      <section class="section-awards
                       section__container 
-                      section__container--gray-line
-                      section--shadow">
-      <h1 class="sections__h1 sections__h1--green title--shadow">Priser</h1>
+                      section__container--gray-line">
+      <h1 class="sections__h1 sections__h1--green heading--shadow">Priser</h1>
           <div class="glide">
             <div class="glide__track" data-glide-el="track">
               <ul class="glide__slides">
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/CERTIFICATE-2010png.png" alt="" />
+                  <img class="section-awards__item" src="images/awards/CERTIFICATE-2010png.png" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/1st-2019-award.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/1st-2019-award.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/1st-2019.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/1st-2019.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/2nd-prize-2019.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/2nd-prize-2019.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/1st-2015.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/1st-2015.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/3rd-prize-2019.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/3rd-prize-2019.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/2nd-prize-2016.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/2nd-prize-2016.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/2nd-prize-2015.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/2nd-prize-2015.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/3rd-prize-2016.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/3rd-prize-2016.jpg" alt="" />
                 </li>
                 <li class="glide__slide">
-                  <img class="section__awards-item" src="images/awards/3rd-prize-2015.jpg" alt="" />
+                  <img class="section-awards__item" src="images/awards/3rd-prize-2015.jpg" alt="" />
                 </li>
               </ul>
             </div>
           </div>
         </section>
       </main>   
-      <footer class="footer
-                      section__container 
-                      section__container--gray-line
-                      footer--color-dark
-                      section--shadow">
+      <footer id="section-contact" 
+               class="footer section__container section__container--gray-line footer--color-dark">
         <div class="footer__items">
           <div class="footer__item footer__item--center">
             <div class="footer__item--center">
               <h2 class="footer__item-h2">Clients</h2>
-              <ul class="review__item-list">
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="#">Privat/Bedrifter</a>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="#">Privat/Bedrifter</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">Pricing</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Pricing</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">Testemonials</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Testemonials</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">FAQ</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">FAQ</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">Hvorfor hagedesign?</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Hvorfor hagedesign?</a>
                 </li>
               </ul>
             </div>
@@ -453,18 +448,18 @@
           <div class="footer__item footer__item--center">
             <div class="footer__item--center">
               <h2 class="footer__item-h2">Company</h2>
-              <ul class="review__item-list">
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="#">About</a>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="#">About</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">Contact</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Contact</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">Terms of service</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Terms of service</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="">Privacy & cookies</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Privacy & cookies</a>
                 </li>
               </ul>
             </div>
@@ -472,18 +467,18 @@
           <div class="footer__item footer__item--center">
             <div class="footer__item--center">
               <h2 class="footer__item-h2">Contact info</h2>
-              <ul class="review__item-list">
-                <li class="review__item-li">
+              <ul class="item__list">
+                <li class="item__list-li">
                   <i class="fas fa-map-marked-alt"></i>
-                  <a class="review__link footer--color-dark" href="#">location</a>
+                  <a class="item__list-link footer--color-dark" href="#">location</a>
                 </li>
-                <li class="review__item-li">
+                <li class="item__list-li">
                   <i class="fas fa-phone"></i>
-                  <a class="review__link footer--color-dark" href="">calls</a>
+                  <a class="item__list-link footer--color-dark" href="">calls</a>
                 </li>
-                <li class="review__item-li">
+                <li class="item__list-li">
                   <i class="far fa-envelope"></i>
-                  <a class="review__link footer--color-dark" href="">emails</a>
+                  <a class="item__list-link footer--color-dark" href="">emails</a>
                 </li>
               </ul>
             </div>
@@ -491,24 +486,24 @@
           <div class="footer__item footer__item--center">
             <div class="footer__item--center">
               <h2 class="footer__item-h2">Useful links</h2>
-              <ul class="review__item-list">
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="https://landskapsarkitektur.no/">NLA</a>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="https://landskapsarkitektur.no/">NLA</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="https://www.norskehagedesignere.no/">Norske hagedesignere</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="https://www.norskehagedesignere.no/">Norske hagedesignere</a>
                 </li>
-                <li class="review__item-li">
-                  <a class="review__link footer--color-dark" href="https://www.naml.no/forsiden/">NAML</a>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="https://www.naml.no/forsiden/">NAML</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <section class="footer-copyright">
-          <p>Copyright
+          <p>Copyright bd-hagedesign.no
            <i class="fas fa-copyright"></i>
-            <a href="https://github.com/marinazzz">m_Z
+            <a href="https://github.com/marinazzz">Developed by m_Z
              <i class="fab fa-github"></i></a>
           </p>
          </section>

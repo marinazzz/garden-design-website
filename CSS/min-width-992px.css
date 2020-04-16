@@ -21,7 +21,7 @@
    /* HEADER */
 
     .nav__logo {
-        max-height: 7rem;
+        max-height: 8rem;
     }
 
     .container__item-bottom,
@@ -47,25 +47,21 @@
         bottom: -29%;
     }
 
-    .section__services {
+    #section-services.section__container {
         padding-bottom: 7rem;
     }
     .container--green {
         justify-content: space-around;
     }
 
-    .services__wrapp {
-        padding: 0;
-    }
-
 
     /* SECTION GALLERY */
 
-    .section__gallery {
+    .section-gallery {
         margin-top: 0;
     }
 
-    /*SECTION REVIEWS  ORGANIZED*/
+    /*SECTION REVIEWS ORGANIZED*/
 
     .review__items {
         width: 300px;
@@ -80,8 +76,6 @@
         text-align: right;
     }
 
-    /* MAIN PHOTO */
-    
     .glide__item-h1 {
         font-size: 3rem;
         letter-spacing: 0.5rem;
@@ -93,13 +87,6 @@
         width: 350px;
     }
     
-    .section__reviews .glide__arrow--right {
-        right: 2rem;
-    }
-    
-    .section__reviews .glide__arrow--left {
-        left: 2rem;
-    }
 }
 
 @media screen and (min-width: 2560px) {
@@ -107,8 +94,5 @@
         font-size: 100%;
     }
 
-    /* SECTION REVIEWS */
-
-    
 
 }

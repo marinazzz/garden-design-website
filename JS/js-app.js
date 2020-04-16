@@ -19,14 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   mainGlide.mount();
 
-  let reviewSlider = new Glide("section.section__reviews > div", {
+  let reviewSlider = new Glide("section.section-reviews > div", {
     type: 'carousel',
     animationDuration: 1000,
     gap: 0
   });
   reviewSlider.mount();
 
-  let awardsSlider = new Glide("section.section__awards > div", {
+  let awardsSlider = new Glide("section.section-awards > div", {
     type: 'carousel',
     autoplay: true,
     perView: 5,

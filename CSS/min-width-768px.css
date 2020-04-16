@@ -14,10 +14,10 @@
       z-index: 100;
     }
 
-   .nav > div > div.nav__items > div.nav__item.section__navigation--color-green,
+   .nav > div > div.nav__items > div.nav__item.nav--color-green,
    .nav__button {
      display: none;
-   }
+    }
  
    .nav__items {
      width: 100%;
@@ -28,10 +28,12 @@
 
     .nav__logo-wrapp {
      position: relative;
+     width: 1.5rem;
    }
  
    .nav__logo {
      position: absolute;
+     max-height: 7rem;
      z-index: 2;
    }
   
@@ -91,7 +93,11 @@
 
 
    /*SECTION MAIN SLIDER*/
- 
+  
+   .slider {
+     padding-top: 0.5rem;
+   }
+   
    .glide__item-h1 {
      font-size: 2rem;
      letter-spacing: 0.3rem;
@@ -101,21 +107,19 @@
    /* SECTIONS */
  
    /* SECTION SERVICES */
+
+   .container {
+     flex-direction: row;
+   }
  
    .services__item-img > button {
-   bottom: -20%;
+     bottom: -20%;
    }
  
    /*SECTION GALLERY*/
  
    .sections__h1--dark-green {
      width: auto;
-   }
-
-   .container,
-   .gallery__items,
-   .section__reviews__container {
-     flex-direction: row;
    }
 
   .container--green {
@@ -135,7 +139,7 @@
     padding: 0.8rem 0;
   }
 
-  .section__gallery .section__h2--dark-green {
+  .section-gallery .section__h2--dark-green {
     text-align: end;
     padding: 0 1rem;
     margin: 0;
@@ -145,7 +149,7 @@
   /*SECTION REVIEW ORGANIZED*/
 
 
-  .section__reviews {
+  .section-reviews {
     display: flex;
     justify-content: space-evenly;
   }
@@ -159,18 +163,18 @@
     width: 100%;
 }
 
-  .section__reviews .glide__arrow--right {
-    right: 0rem;
+  .section-reviews .glide__arrow--right {
+    right: -1.5rem;
   }
 
-  .section__reviews .glide__arrow--left {
-    left: 0rem;
+  .section-reviews .glide__arrow--left {
+    left: -1.5rem;
   }
 
 
   /* SECTION AWARDS */
   
-  .section__awards-item {
+  .section-awards__item {
     width: 150px;
   }
 
