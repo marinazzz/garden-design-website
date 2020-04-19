@@ -269,11 +269,12 @@ body {
   text-align: justify;
 }
 
-.services__item-img {
+.services__item-img,
+.services__item-img--elipse {
   position: relative;
 }
 
-.services__item-img > button {
+.services__item-img .primary-button {
   position: absolute;
   bottom: -15%;
   left: 50%;
@@ -290,6 +291,11 @@ body {
 .services__item-button {
   background: var(--color-main-green);
   color: var(--color-white);
+  font-size: 2rem;
+  line-height: 3rem;
+  text-decoration: none;
+  width: 10rem;
+  padding: 0.5rem;
 }
 
 
@@ -355,11 +361,14 @@ body {
 }
 
 .section__h2--dark-green {
-  color: var(--color-light-green);
   padding: 0 3rem;
   font-size: 1.8rem;
 }
 
+.gallery__item-h2 a {
+  text-decoration: none;
+  color: var(--color-light-green);
+}
 
 .fa-angle-double-right {
   margin: 0 0.4rem;

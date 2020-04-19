@@ -44,10 +44,12 @@
 
     /* SECTIONS SERVICES*/
 
-    .services__item-img > button {
-        bottom: -29%;
+    .services__item-button {
+        font-size: 1.5rem;
+        width: 8rem;
+        padding: 0.2rem;
     }
-
+    
     #section-services.section__container {
         padding-bottom: 7rem;
     }

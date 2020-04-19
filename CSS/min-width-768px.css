@@ -130,8 +130,8 @@
      flex-direction: row;
    }
  
-   .services__item-img > button {
-     bottom: -20%;
+   .services__item-img .primary-button {
+     bottom: -3rem;
    }
  
    /*SECTION GALLERY*/
