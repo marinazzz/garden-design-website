@@ -10,11 +10,14 @@ html {
   font-size: 62.5%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -399,9 +402,6 @@ body {
   color: var(--color-white);
 }
 
-.review__item--color-brown {
-  color: var(--color-brown);
-}
 
 /*images inside item*/
 .review__item-photo {

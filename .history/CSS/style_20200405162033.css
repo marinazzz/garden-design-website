@@ -32,7 +32,7 @@ body {
 /*titles*/
 
 .sections__title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -50,8 +50,8 @@ body {
   border-radius: 3rem;
   box-sizing: border-box;
   border: none;
-  font-size: 1.4rem;
-  padding: 1.2rem 3rem;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
 }
 
        /*__ HEADER__ */
@@ -60,6 +60,7 @@ body {
   display: flex;
   justify-content: space-around;
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.24), 0 0 30rem 0 rgba(0, 0, 0, 0.2);
+  background: white;
 }
 
 .logo {
@@ -217,6 +218,7 @@ body {
 .services__title {
   color: var(--color-white);
   background: var(--color-main-green);
+  z-index: 1;
 }
 
 .services__photo,
@@ -332,20 +334,174 @@ body {
   padding: 0 3rem;
 }
 
+
 .gallery__items {
   padding-top: 4rem;
 }
 
+.fa-angle-double-right {
+  margin: 0 0.4rem;
+}
+
+/*SECTION REVIEW ORGANIZED*/
+
+#section__review {
+  background: var(--color-brown);
+  padding: 1.5rem 0 2.5rem 0;
+}
+
+/*shared style for items in section*/
+
+.review__item,
+.review__item-top {
+  box-shadow: 0 5px 7px 0px #292626c9;
+}
+
+.review__item {
+  color: #000000;
+  background-color: var(--color-white);
+  width: 85%;
+  margin: 0 auto;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.review__item-top {
+  height: 4rem;
+  width: 100%;
+  border-top: #5d493e 0.5px solid;
+  border-bottom: #5d493e 0.5px solid;
+  background: var(--color-brown);
+}
+
+.review__item-wrapp {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section__review__title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  letter-spacing: 0.32rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+/*colors for each item*/
+.review__item--color-beige {
+  background: var(--color-white);
+  color: var(--color-dark-green);
+}
+
+.review__item--color-green {
+  background: var(--color-light-green);
+  color: var(--color-white);
+}
+
+
+/*images inside item*/
+.review__item-photo {
+  width: 40%;
+}
+
+
+/*list & paragraph inside item*/
+
+.review__item-txt,
+.review__link {
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.review__item-list {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.review__item-li {
+  list-style-type: none;
+  line-height: 2.4rem;
+}
+
+.review__item-li::before {
+  content: '-';
+}
+
+.review__link {
+  text-decoration: none;
+}
+
+
+/*1.item with slider*/
+
+.review__photo {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.review__slide-title {
+  font-weight: bold;
+}
+
+.review__txt {
+  quotes: "“" "”" "‘" "’";
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.review__txt::before {
+  content: open-quote;
+}
+
+.review__txt::after {
+  content: close-quote;
+}
+
+.review__author{
+  font-style: italic;
+}
+
+/*arrows in slider*/
+#section__review .glide__arrow  {
+  font-size: 2rem;
+  border-color: transparent;
+  box-shadow: none;
+  border-radius: 50%;
+  line-height: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.fa-chevron-circle-left, 
+.fa-chevron-circle-right {
+  color: var(--color-dark-green);
+}
+
+
+/* SECTION AWARDS*/
+
+
+
+.section__awards__photo {
+  width: 100px;
+}
+
+#section__awards .glide {
+  padding: 2rem 0;
+}
+
 /*FOOTER*/
 
-footer {
-  background: var(--color-dark-green);
+.footer__main {
+  background: #333333;
   padding: 0.5rem;
   margin-top: 20rem; /*temporary*/
   color: var(--color-white);
 }
 
-footer a {
-  color: var(--color-white);
+a[href *= "marinazzz"] {
+  color: white;
   text-decoration: none;
 }

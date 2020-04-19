@@ -29,6 +29,14 @@ body {
   padding: 0 1rem;
 }
 
+#main-photo,
+#section__services,
+#section__gallery,
+#section__review,
+#section__awards {
+  box-sizing: border-box;
+}
+
 /*titles*/
 
 .sections__title {
@@ -399,9 +407,6 @@ body {
   color: var(--color-white);
 }
 
-.review__item--color-brown {
-  color: var(--color-brown);
-}
 
 /*images inside item*/
 .review__item-photo {
@@ -507,4 +512,41 @@ body {
 a[href *= "marinazzz"] {
   color: white;
   text-decoration: none;
+}
+
+/*shadow ideas*/
+
+.effect5
+{
+  position: relative;
+}
+.effect5::before, .effect5::after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect5::after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
 }

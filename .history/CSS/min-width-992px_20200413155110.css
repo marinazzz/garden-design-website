@@ -63,7 +63,6 @@
     
     /* HEADER */
     
-    
     #menu {
         padding-left: 30rem;
     }
@@ -111,12 +110,6 @@
 
     .container__item-bottom {
         padding: 0 20rem;
-    }
-
-    /*content on middle*/
-
-    .container__menu {
-        max-width: 2000px;
     }
 
     /* SECTION REVIEWS */

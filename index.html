@@ -16,14 +16,14 @@
         type="text/css"
         href="CSS/min-width-992px.css">
   <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link rel="stylesheet"
         type="text/css"
         href="PLUGINS/glide-master/dist/css/glide.core.min.css" />
   <link rel="stylesheet"
         type="text/css"
         href="PLUGINS/glide-master/dist/css/glide.theme.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
         rel="stylesheet">
   <meta name="viewport"
         content="width=device-width, initial-scale=1"
@@ -32,99 +32,105 @@
 
 <body>
   <header>
-      <div class="container__menu--small container__menu">
-        <!--grid container-->
-        <div class="container__logo">
-          <!--1.column-->
-          <img class="logo"
-               src="images/prohage black.png"
-               alt="Prohage logo">
+    <section class="nav section--light-shadow" 
+             class="section--shadow">
+      <div class="nav__container nav--color-green section__container">
+        <div class="nav__logo-wrapp">
+          <a href="index.html">
+            <img class="nav__logo heading--shadow"
+               src="images/BD-hagedesign-500px.png"
+               alt="BD hagedesign logo" /> 
+               </a>
         </div>
-        <div class="container__items--small container__items">
-          <!--2.column-->
-          <div class="container__item">
-            <!--1.row-->
-            <a href="mailto:info@prohage.no"
-               class="container__item-txt"><i class="far fa-envelope"></i>info@prohage.no</a>
+        <div class="nav__items">
+          <div class="nav__item nav--color-green">
+            <a href="mailto:info@bd-hagedesign.no"
+               class="nav__item-link"><i class="far fa-envelope nav--color-green icon--padding"></i>info@prohage.no</a>
             <a href="tlf:45511111"
-               class="container__item-txt"><i class="fas fa-phone"></i>45511111</a>
+               class="nav__item-link"><i class="fas fa-phone nav--color-green icon--padding"></i>45511111</a>
           </div>
-          <div class="container__item-bottom">
-            <!--2.row-->
-            <button class="menu__toggle">
+          <div class="nav__item">
+            <button class="nav__button nav--color-green">
               <i class="fas fa-bars"></i>
             </button>
-            <nav id="menu">
-              <ul class="menu__list">
+            <nav class="menu">
+              <ul class="menu__items">
                 <li class="menu__item">
-                  <a class="menu__link"
-                     href="home">Home</a>
+                  <a class="menu__item-link"
+                     href="index.html">Home</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link"
-                     href="#services">Våre tjenester</a>
+                  <a class="menu__item-link"
+                     href="services.html">Tjenester</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link"
-                     href="#gallery">Galleri</a>
+                  <a class="menu__item-link"
+                     href="portfolio.html">Portfølje</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link"
-                     href="#about">Om oss</a>
+                  <a class="menu__item-link"
+                     href="#section-reviews">Om meg</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link"
-                     href="#blog">Blogg</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link"
-                     href="kontakt">Kontakt</a>
+                  <a class="menu__item-link"
+                     href="#section-contact">Kontakt</a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
       </div>
-    <section id="main-photo">
+    </section>  
+    <section class="slider
+                    section__container section--light-shadow">
       <div class="glide">
         <div class="glide__track"
              data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide">
-              <img class="main-photo__item"
+              <img class="glide__item-img"
                    srcset="images/daylight-environment-garden-2000.jpg 2000w, 
                                          images/daylight-environment-garden-1000.jpg 1000w"
                    sizes="(min-width: 1440px) 2000px, 100vw"
-                   src="images/daylight-environment-garden-2000.jpg"
+                   src="images/daylight-environment-garden-1000.jpg"
                    alt="Garden and plants" />
-              <h1 class="main-photo__title">Profesjonell hagehjelp</h1>
+              <h1 class="glide__item-h1">Profesjonell hagehjelp</h1>
             </li>
             <li class="glide__slide">
-              <img class="main-photo__item"
-                   srcset="images/main-header-photo-2000.jpg 2000w, 
-                                          images/main-header-photo-1000.jpg 1000w"
-                   sizes="(min-width: 1440px) 2000px, 100vw"
-                   src="images/main-header-photo-2000.jpg"
-                   alt="Garden and plants" />
-              <h1 class="main-photo__title">Ta kontakt allerede idag</h1>
-            </li>
-            <li class="glide__slide">
-              <img class="main-photo__item"
-                   srcset="images/header-photo-2000.jpg 2000w, 
-                                         images/header-photo-1000.jpg 1000w"
-                   sizes="(min-width: 1440px) 2000px, 100vw"
-                   src="images/header-photo-2000.jpg"
-                   alt="Garden designed by proffesional" />
-              <h1 class="main-photo__title">Rådgiving og tipser</h1>
-            </li>
-            <li class="glide__slide">
-              <img class="main-photo__item"
+              <img class="glide__item-img"
                    srcset="images/bloom-blooming-blur-2000.jpg 2000w, 
                                          images/bloom-blooming-blur-1000.jpg 1000w"
                    sizes="(min-width: 1440px) 2000px, 100vw"
-                   src="images/bloom-blooming-blur-2000.jpg"
+                   src="images/bloom-blooming-blur-1000.jpg"
                    alt="Garden designed by proffesional" />
-              <h1 class="main-photo__title">Følg vår hageblogg</h1>
+              <h1 class="glide__item-h1">Kompetanse</h1>
+            </li>
+            <li class="glide__slide">
+              <img class="glide__item-img"
+                   srcset="images/main-header-photo-2000.jpg 2000w, 
+                                          images/main-header-photo-1000.jpg 1000w"
+                   sizes="(min-width: 1440px) 2000px, 100vw"
+                   src="images/main-header-photo-1000.jpg"
+                   alt="Garden and plants" />
+              <h1 class="glide__item-h1">Erfaring</h1>
+            </li>
+            <li class="glide__slide">
+              <img class="glide__item-img"
+                   srcset="images/header-photo-2000.jpg 2000w, 
+                                         images/header-photo-1000.jpg 1000w"
+                   sizes="(min-width: 1440px) 2000px, 100vw"
+                   src="images/header-photo-1000.jpg"
+                   alt="Garden designed by proffesional" />
+              <h1 class="glide__item-h1">Beste tjenester i Norge</h1>
+            </li>
+            <li class="glide__slide">
+              <img class="glide__item-img"
+                   srcset="images/bloom-blooming-blur-2000.jpg 2000w, 
+                                         images/bloom-blooming-blur-1000.jpg 1000w"
+                   sizes="(min-width: 1440px) 2000px, 100vw"
+                   src="images/bloom-blooming-blur-1000.jpg"
+                   alt="Garden designed by proffesional" />
+              <h1 class="glide__item-h1">Ta kontakt i dag</h1>
             </li>
           </ul>
         </div>
@@ -132,116 +138,376 @@
     </section>
   </header>
   <main>
-    <section id="section__services"
-             class="section__container">
-      <h1 class="services__title sections__title">Tjenester</h1>
+    <section id= "section-services" 
+             class="section__container section__container--gray-line section--shadow">
+      <h1 class="sections__h1 sections__h1--green heading--shadow">Tjenester</h1>
       <div class="container">
-        <section class="services__item">
-          <div class="item-title__wrapp">
+        <section class="services__items">
+          <div class="services__item-h2">
             <i class="fas fa-circle"></i>
-            <h2 class="services__item-title">Hagedesign</h2>
+            <h2 class="section__h2">Hagedesign</h2>
           </div>
-          <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
-            ex aperiam dolores corporis iusto!</p>
-          <div class="services__photo__wrapp">
-            <img class="services__photo"
+          <p class="services__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendi laboriosam ipsum ex aperiam dolores corporis iusto!</p>
+          <div class="services__item-img">
+            <img class="services__item-img--elipse section--light-shadow"
                  src="images/Hagedesign.jpg"
                  alt="Hagedesigner tegner" />
-            <button class="primary__button services__button">les mer</button>
+            <a href="services.html" class="primary-button services__item-button section--light-shadow">les mer</a>
           </div>
         </section>
-        <section class="services__item">
-          <div class="item-title__wrapp">
+        <section class="services__items">
+          <div class="services__item-h2">
             <i class="fas fa-circle"></i>
-            <h2 class="services__item-title">Hagekonsultasjon</h2>
+            <h2 class="section__h2">Hageskisse</h2>
           </div>
-          <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
-            ex aperiam dolores corporis iusto!</p>
-          <div class="services__photo__wrapp">
-            <img class="services__photo"
-                 src="images/konsultasjon.jpg"
-                 alt="Hagekonsultasjon med hagedesigner" />
-            <button class="primary__button services__button">les mer</button>
-          </div>
-        </section>
-        <section class="services__item">
-          <div class="item-title__wrapp">
-            <i class="fas fa-circle"></i>
-            <h2 class="services__item-title">Hageskise</h2>
-          </div>
-          <p class="services__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam.ipsum
-            ex aperiam dolores corporis iusto!</p>
-          <div class="services__photo__wrapp">
-            <img class="services__photo"
+          <p class="services__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam ipsum ex aperiam dolores corporis iusto!</p>
+          <div class="services__item-img">
+            <img class="services__item-img--elipse section--light-shadow"
                  src="images/skisse.jpg"
+                 alt="Hagekonsultasjon med hagedesigner" />
+            <a href="services.html" class="primary-button services__item-button section--light-shadow">les mer</a>
+          </div>
+        </section>
+        <section class="services__items">
+          <div class="services__item-h2">
+            <i class="fas fa-circle"></i>
+            <h2 class="section__h2">Konsultasjon</h2>
+          </div>
+          <p class="services__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam ipsum ex aperiam dolores corporis iusto!</p>
+          <div class="services__item-img">
+            <img class="services__item-img--elipse section--light-shadow"
+                 src="images/hage-konsultasjon.jpg"
                  alt="Hagedesigner hjelp" />
-            <button class="primary__button services__button">les mer</button>
+            <a href="services.html" class="primary-button services__item-button section--light-shadow">les mer</a>
           </div>
         </section>
       </div>
     </section>
-    <section id="section__gallery"
-             class="section__container">
-      <h1 class="gallery__title sections__title">Våre prosjekter</h1>
-      <div class="container gallery__wrapp">
-        <div class="container gallery__items">
-          <div class="gallery__item-wrapp">
-            <img class="gallery__item"
-                 srcset="images/gallery-photo1-2000.jpg 2000w, 
-                                     images/gallery-photo1-1000.jpg 1000w"
-                 sizes="(min-width: 1440px) 2000px, 100vw"
-                 src="images/gallery-photo1-2000.jpg"
+    <section id="section-portfolio" 
+             class="section-gallery section__container section__container--gray-line section--shadow ">
+      <h1 class="sections__h1 sections__h1--dark-green heading--shadow">Mine prosjekter</h1>
+      <div class="container container--green">
+        <div class="gallery__items container">
+          <div class="gallery__item">
+            <img class="gallery__item-img"
+                 src="images/gallery-photo1-1000.jpg"
                  alt="Hagedesign terrase" />
           </div>
-          <div class="gallery__item-wrapp gallery__item-wrapp">
-            <img class="gallery__item"
-                 srcset="images/gallery-photo2-2000.jpg 2000w, 
-                                     images/gallery-photo2-1000.jpg 1000w"
-                 sizes="(min-width: 1440px) 2000px, 100vw"
-                 src="images/gallery-photo2-2000.jpg"
+          <div class="gallery__item">
+            <img class="gallery__item-img"
+                 src="images/gallery-photo2-1000.jpg"
                  alt="Hagedesign terrase" />
           </div>
-          <div class="gallery__item-wrapp">
-            <img class="gallery__item"
-                 srcset="images/gallery-photo3-2000.jpg 2000w, 
-                                     images/gallery-photo3-1000.jpg 1000w"
-                 sizes="(min-width: 1440px) 2000px, 100vw"
-                 src="images/gallery-photo3-2000.jpg"
+          <div class="gallery__item">
+            <img class="gallery__item-img"
+                 src="images/gallery-photo3-1000.jpg" 
                  alt="Hagedesign terrase" />
+                    </div>
+                </div>
+                <div class="gallery__item-h2">
+                    <a href="portfolio.html"><h2 class="section__h2 section__h2--dark-green">Se min portfølje
+                        <i class="fas fa-angle-double-right"></i> </a>
+                    </h2>
+                </div>
+            </div>  
+      </section>
+      <section id="section-about" 
+                class="section-reviews section__container section__container--gray-line section--shadow">
+        <div class="reviews__item--col1">
+          <div class="review__items review__item--color-beige item--shadow">
+            <div class="review__item--brown heading--shadow">
+             </div>
+                <div class="review__item">
+                    <h1 class="review__item-h1">Referanser</h1>
+                    <div class="review__slider-wrapp">
+                      <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                          <ul class="glide__slides">
+                            <li class="glide__slide glide__slide--active">
+                              <div class="glide__content">
+                                <img class="review__item-img section--light-shadow" src="images/review-picture1.jpg" alt="Hagedesign terrase" />
+                                <h2 class="review__item-h2--bold">Beste hagehjelp</h2>
+                                <div class="review__item-icon">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                  <p class="review__item-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae
+                                    laborum.
+                                    Vero dicta blanditiis quidem
+                                  </p>
+                                  <footer class="review__item-footer">Anonymous</footer>
+                                </blockquote>
+                              </div>
+                            </li>
+                            <li class="glide__slide glide__slide--active">
+                              <div class="glide__content">
+                                <img class="review__item-img section--light-shadow" src="images/review-picture2.jpg" alt="Hagedesign terrase" />
+                                <h2 class="review__item-h2--bold">Tussen takk</h2>
+                                <div class="review__item-icon">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                  <p class="review__item-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae
+                                    laborum.
+                                    Vero dicta blanditiis quidem est.
+                                  </p>
+                                  <footer class="review__item-footer">Anonymous</footer>
+                                </blockquote>
+                              </div>
+                            </li>
+                            <li class="glide__slide glide__slide--active">
+                              <div class="glide__content">
+                                <img class="review__item-img section--light-shadow" src="images/review-picture3.jpg" alt="Hagedesign terrase" />
+                                <h2 class="review__item-h2--bold">Anbefaler</h2>
+                                <div class="review__item-icon">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                </div>
+                                <blockquote>
+                                  <p class="review__item-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae
+                                    laborum.
+                                    Vero dicta blanditiis quidem est.
+                                  </p>
+                                  <footer class="review__item-footer">Anonymous</footer>
+                                </blockquote>
+                                </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <i class="fas fa-chevron-circle-left"></i>
+                          </button>
+                          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <i class="fas fa-chevron-circle-right"></i>
+                          </button>
+                        </div>
+                     </div>
+                   </div>
+                </div> 
+           </div>        
+          <div class="review__items review__item--color-green item--shadow">
+            <div class="review__item--brown heading--shadow"> 
+            </div>
+            <div class="review__item">
+              <h1 class="review__item-h1">Medlem av</h1>
+              <img class="review__item-img--logo" src="images/NLA-medlem-png.png" alt="" />
+              <p class="review__item-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, consequatur. Incidunt, nostrum
+                eaque facere reprehenderit obcaecati quod molestiae esse quasi!</p>
+            </div>
           </div>
         </div>
-        <div class="container gallery__txt-wrapp">
-          <h2 class="gallery__item-title services__item-title">See alle prosjekter
-            <i class="fas fa-angle-double-right"></i>
-          </h2>
-          <p class="gallery__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni neque, ut incidunt
-            reprehenderit fugiat possimus.</p>
+        <div class="reviews__item--col2">
+          <div class="review__items review__item--color-green item--shadow">
+            <div class="review__item--brown heading--shadow"> 
+            </div>
+            <div class="review__item">
+              <h1 class="review__item-h1">Kompetanse</h1>
+              <p class="review__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
+                Vero dicta blanditiis quidem est.Dolorem nemo Vero dicta blanditiis quidem est.Dolorem nemot
+              </p>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-green" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <article id="blog-posts">
-
-    </article>
-    <section id="about oss">
-
-    </section>
-  </main>
-  <footer>
-    <p>designed by Marina Zujic
-      <a href="https://github.com/marinazzz">github.com/marinazzz</a>
-    </p>
-  </footer>
-  <script src="PLUGINS/glide-master/dist/glide.min.js"></script>
-  <script>
-    new Glide('.glide', {
-      type: 'carousel',
-      autoplay: true,
-      hoverpause: false,
-      perView: 1,
-      animationDuration: 10000
-    }).mount()
-  </script>
-  <script src="JS/js-app.js"></script>
+        <div class="reviews__item--col13">
+          <div class="review__items review__item--color-beige item--shadow">
+            <div class="review__item--brown heading--shadow"> 
+            </div>
+            <div class="review__item">
+              <h1 class="review__item-h1">Erfaring</h1>
+              <p class="review__item-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem nemo, voluptatibus ullam facere laudantium sit impedit repudiandae facilis beatae laborum.
+              </p>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link review__item--color-beige" href="#om-oss">Lorem, ipsum dolor.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="review__items review__item--color-green item--shadow">
+            <div class="review__item--brown heading--shadow"> 
+            </div>
+            <div class="review__item">
+              <h1 class="review__item-h1">Medlem av</h1>
+              <img class="review__item-img--logo" src="images/Norske-hagedesignere-medlem-png.png" alt="" />
+              <p class="review__item-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, consequatur. Incidunt, nostrum
+                eaque facere reprehenderit obcaecati quod molestiae esse quasi!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-awards
+                      section__container 
+                      section__container--gray-line">
+      <h1 class="sections__h1 sections__h1--green heading--shadow">Priser</h1>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/CERTIFICATE-2010png.png" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/1st-2019-award.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/1st-2019.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/2nd-prize-2019.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/1st-2015.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/3rd-prize-2019.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/2nd-prize-2016.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/2nd-prize-2015.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/3rd-prize-2016.jpg" alt="" />
+                </li>
+                <li class="glide__slide">
+                  <img class="section-awards__item" src="images/awards/3rd-prize-2015.jpg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>   
+      <footer id="section-contact" 
+               class="footer section__container section__container--gray-line footer--color-dark">
+        <div class="footer__items">
+          <div class="footer__item footer__item--center">
+            <div class="footer__item--center">
+              <h2 class="footer__item-h2">Clients</h2>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="#">Privat/Bedrifter</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Pricing</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Testemonials</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">FAQ</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Hvorfor hagedesign?</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__item footer__item--center">
+            <div class="footer__item--center">
+              <h2 class="footer__item-h2">Company</h2>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="#">About</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Contact</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Terms of service</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="">Privacy & cookies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__item footer__item--center">
+            <div class="footer__item--center">
+              <h2 class="footer__item-h2">Contact info</h2>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <a class="item__list-link footer--color-dark" href="#">location</a>
+                </li>
+                <li class="item__list-li">
+                  <i class="fas fa-phone"></i>
+                  <a class="item__list-link footer--color-dark" href="">calls</a>
+                </li>
+                <li class="item__list-li">
+                  <i class="far fa-envelope"></i>
+                  <a class="item__list-link footer--color-dark" href="">emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__item footer__item--center">
+            <div class="footer__item--center">
+              <h2 class="footer__item-h2">Useful links</h2>
+              <ul class="item__list">
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="https://landskapsarkitektur.no/">NLA</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="https://www.norskehagedesignere.no/">Norske hagedesignere</a>
+                </li>
+                <li class="item__list-li">
+                  <a class="item__list-link footer--color-dark" href="https://www.naml.no/forsiden/">NAML</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section class="footer-copyright">
+          <p>Copyright bd-hagedesign.no
+           <i class="fas fa-copyright"></i>
+            <a href="https://github.com/marinazzz">Developed by m_Z
+             <i class="fab fa-github"></i></a>
+          </p>
+         </section>
+      </footer>   
+     <script src="PLUGINS/glide-master/dist/glide.min.js"></script>
+     <script src="JS/js-app.js"></script>   
 </body>
 
 </html>

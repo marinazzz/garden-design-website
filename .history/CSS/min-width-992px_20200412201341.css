@@ -62,7 +62,10 @@
 @media screen and (min-width: 1440px) {
     
     /* HEADER */
-    
+    .container__menu {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
     
     #menu {
         padding-left: 30rem;

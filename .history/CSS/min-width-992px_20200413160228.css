@@ -20,8 +20,10 @@
 
     /* SECTIONS */
 
+    /*content on middle*/
+
     .section__container {
-        max-width: 2000px;
+        max-width: 1600px;
         margin: 0 auto;
         padding-bottom: 0;
     }
@@ -63,7 +65,6 @@
     
     /* HEADER */
     
-    
     #menu {
         padding-left: 30rem;
     }
@@ -98,7 +99,7 @@
 
     .logo {
         max-height: 10rem;
-        left: 20rem;
+        left: 16rem;
     }
 
     .container__item {
@@ -113,16 +114,8 @@
         padding: 0 20rem;
     }
 
-    /*content on middle*/
-
-    .container__menu {
-        max-width: 2000px;
-    }
-
     /* SECTION REVIEWS */
 
-    .review__item {
-        width: 600px;
-    }
+    
 
 }
