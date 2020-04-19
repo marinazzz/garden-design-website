@@ -116,9 +116,10 @@ body {
 }
 
 .nav__logo {
-  max-height: 8rem;
+  max-height: 7rem;
   background: white;
 }
+
 
 .nav__button {
   box-sizing: border-box;
@@ -138,7 +139,8 @@ body {
 
 .nav__item-link {
   color: black;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
+  font-size: 1.4rem;
 }
 
 .nav__item-link, 
@@ -276,7 +278,7 @@ body {
 
 .services__item-img .primary-button {
   position: absolute;
-  bottom: -15%;
+  bottom: -18%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

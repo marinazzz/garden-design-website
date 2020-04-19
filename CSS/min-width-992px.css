@@ -45,9 +45,7 @@
     /* SECTIONS SERVICES*/
 
     .services__item-button {
-        font-size: 1.5rem;
         width: 8rem;
-        padding: 0.2rem;
     }
     
     #section-services.section__container {

@@ -135,6 +135,12 @@
   bottom: -3rem;
 }
 
+.services__item-button {
+  font-size: 1.5rem;
+  width: 7rem;
+  padding: 0.2rem;
+}
+
 /*SECTION GALLERY*/
 
 .sections__h1--dark-green {
