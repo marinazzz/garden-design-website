@@ -1,0 +1,131 @@
+main {
+    text-align: left;
+}
+
+/*layout*/
+.section-design,
+.section-concept,
+.section-garden-plan {
+    padding: 0 2rem;
+    margin: 5rem auto;
+}
+
+.section-design {
+    margin: 0 auto;
+}
+
+.section__item-wrapp {
+    margin-top: 3rem;
+}
+
+
+/*colors*/
+
+.header-item__h2,
+.section__item-wrapp .item__list-li::before {
+    color: var(--color-main-green);
+}
+
+.section__item-h3 {
+  color: var(--color-dark-green);
+}
+
+.section__item-button > a {
+    background-color: var(--color-main-green);
+}
+
+
+
+
+/*headings*/
+
+
+.header-item__h1,
+.header-item__h2,
+.section__item-h3 {
+    letter-spacing: 0.1rem;
+}
+
+.header-item__h1 {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    padding: 1rem 0;
+}
+
+.header-item__h2 {
+   font-size: 2rem;
+}
+
+.section__item-h3 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+
+/*items*/
+
+.section__item-p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    padding-left: 1rem;
+}
+
+section.section-design.section--max-width > p:nth-child(2) {
+    font-size: 1.4rem;
+}
+
+
+.item-p--border {
+    border-left: 5px solid #528c36;
+    background: #eee;
+    padding: 1.2rem;
+}
+
+.section__item-wrapp .item__list {
+    line-height: 2.8rem;
+    list-style-position: outside;
+}
+
+.section__item-wrapp .item__list-li::before {
+    content: ">>";
+    font-size: 1.5rem;
+}
+
+.section__item-wrapp .item__list-li {
+    display: flex;
+    align-items: flex-start;
+    line-height: 3rem;
+    margin-left: 1.5rem;
+}
+
+.section-design .item__list-link {
+    color: black;
+    line-height: 3.5rem;
+    font-size: 1.7rem;
+    margin-left: 1.3rem;
+}
+
+.section-design .item__list-link,
+.section__item-button > a {
+    text-decoration: none;
+}
+
+
+.section__item-button {
+    text-align: right;
+}
+
+.section__item-button > a {
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+
+/*SECTION CONCEPT*/
+
+.item-p--underline {
+    color: var(--color-main-green);
+    text-underline-position: under;
+}

@@ -565,7 +565,7 @@ body {
 /*layout*/
 
 .footer__items {
-  padding: 0 3rem;
+  padding: 0 1.7rem;
 }
 
 .footer__item--center {
@@ -574,7 +574,7 @@ body {
 }
 
 .footer__item {
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 
 
@@ -587,7 +587,7 @@ body {
 /*headings*/
 
 .footer__item-h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.1rem;
   margin: 1rem 0;
   font-weight: bold;
@@ -606,15 +606,17 @@ body {
 
 /*items*/
 
-#section-contact .item__list-li {
-  font-size: 1rem;
+#section-contact .item__list-li,
+#section-contact .item__list-link {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 
 #section-contact .item__list-li::before {
   content: '\f111';
   font-family: "Font Awesome 5 Free"; 
   font-weight: 750;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   padding-right: 0.5rem;
 }
 

@@ -1,0 +1,13 @@
+@media screen and (min-width: 992px) {
+
+    /*layout*/
+   
+   .section--max-width {
+       max-width: 1200px;
+   }
+
+   .section-design {
+       margin: 5rem auto;
+   }
+
+}
