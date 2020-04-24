@@ -1,9 +1,37 @@
 @media screen and (min-width: 768px) {
-    .section-design {
-        margin: 4rem auto;
+    
+    .article__h1 {
+        letter-spacing: 0.3rem;
     }
-
-    .item-p--border {
+    
+    .article__p--border{
         padding: 1.5rem;
     }
+
+    .article-content {
+        margin: 0 auto 4rem auto;
+    }
+
+    .banner {
+        margin: 0 auto;
+    }
+
+    article:nth-child(5) > h2:after {
+        width: 11rem;
+    }
+    
+    article:nth-child(6) > h2:after {
+        width: 15rem;
+    }
+
+    article:nth-child(7) > h2:after {
+        width: 32rem;
+    }
+
+    article:nth-child(8) > h2:after {
+        width: 34rem;
+    }
+
+
+
 }

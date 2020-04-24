@@ -2,12 +2,18 @@
 
     /*layout*/
    
-   .section--max-width {
+   .content--max-width {
        max-width: 1200px;
+       margin: 0 auto;
+       box-sizing: border-box;
    }
 
-   .section-design {
-       margin: 5rem auto;
+   .article__h1 {
+       letter-spacing: 0.4rem;
    }
+   
+   .article-content {
+       margin: 0 auto 4rem auto;
+    } 
 
 }

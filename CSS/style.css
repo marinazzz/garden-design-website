@@ -598,7 +598,7 @@ body {
   left: 0;
   display: block;
   content: "";
-  width: 100%;
+  width: 11rem;
   font-weight: 900;
   border-bottom: 0.2rem solid var(--color-main-green);
 }

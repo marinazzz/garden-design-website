@@ -210,6 +210,10 @@
     margin: 0;
   }
 
+  .footer__item-h2::after {
+    width: 100%;
+  }
+
 }
 
 
