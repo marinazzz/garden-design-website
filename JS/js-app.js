@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   awardsSlider.mount();
 
+  //slider on about page
   let aboutSlider = new Glide("section.section-awards.section__container > div", {
     type: 'carousel',
     autoplay: true,
@@ -61,5 +62,15 @@ document.addEventListener('DOMContentLoaded', function () {
     gap: 0
   });
   aboutSlider.mount();
-  
+
+  // Initialize and add the map
+   function initMap() {
+  // The location of Oslo
+    var oslo = {lat: 59.91273, lng: 10.74609};
+  // The map, centered at Oslo
+   var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: oslo});
+  // The marker, positioned at Oslo
+   var marker = new google.maps.Marker({position: oslo, map: map});
+}
 });

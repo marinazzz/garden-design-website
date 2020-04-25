@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+    
+    .section-info {
+        display: flex;
+        padding-top: 2rem;
+    }
+
+    #contact-form > h2 {
+        margin-top: 0;
+    }
+
+    .form-container {
+        padding-right: 2rem;
+    }
+
+    form {
+        width: max-content;
+    }
+
+    .form-container input,
+    .form-container textarea {
+        width: 50rem;
+    }
+
+
+    #contact-form > div.form__submit > input[type=submit] {
+        width: auto;
+    }
+    
+    .section__info-p {
+        padding: 4rem 0 0 0;
+    }
+
+
+}

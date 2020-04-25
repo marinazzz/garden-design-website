@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="nb">
-
 <head>
-  <title>Hagedesign Oslo</title>
+  <title>BD hagedesign</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
         rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
@@ -10,6 +9,27 @@
   <link rel="stylesheet"
         type="text/css"
         href="CSS/fontawesome-free-5.12.1-web/css/all.min.css">
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/services.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/services-min-width-768px.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/services-min-width-992px.css" />  
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/about-me.css" />      
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/about-me-min-width-768px.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/contact-min-width-768px.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        href="CSS/contact.css" />
   <link rel="stylesheet"
         type="text/css"
         href="CSS/style.css" />
@@ -30,7 +50,7 @@
       <div class="nav__container nav--color-green section__container">
         <div class="nav__logo-wrapp">
             <a href="index.html">
-              <img class="nav__logo heading--shadow"
+              <img class="nav__logo"
                  src="images/BD-hagedesign-500px.png"
                  alt="BD hagedesign logo" /> 
                  </a>
@@ -76,7 +96,52 @@
     </section>  
   </header>
   <main>
+    <div class="content--max-width section__container--gray-line">
 
+        <div id="map"></div>
+        <!--<div class="about__image">
+            <div class="about__text">
+              <h1>MAPA</h1>
+            </div>
+        </div>-->
+        <section class="section-info">
+            <div class="form-container">
+                <form action="form.js" method="post" id="contact-form">
+                    <h2 class="article__h2">Kontakt</h2>
+                    <div class="form__item">
+                        <input type="text" class="input" id="navn" placeholder="Navn">
+                    </div>
+                    <div class="form__item">
+                        <input type="email" class="input" id="epost" placeholder="E-post">
+                    </div>
+                    <div class="form__item">
+                        <input type="tel" class="input" id="telefon" placeholder="Telefon">
+                    </div>
+                    <div class="form__item">
+                        <input type="text" class="input" id="sted" placeholder="Sted">
+                    </div>
+                    <div class="form__item">
+                        <textarea id="beskjed" cols="30" rows="10" placeholder="Beskjed"></textarea>
+                    </div>
+                    <div class="form__submit">
+                        <input type="submit" value="send">
+                    </div>
+                </form>
+                </div>
+            <div class="section-info__item">
+                <div class="section__info-p content--max-width">
+                    <p class="article__p">
+                        When making a contact with me, it would be useful to include garden information such as: garden address, 
+                        dimensions of the garden, your aspiration for the space, several pictures and eventually your budget in mind. 
+                    </p>
+                    <p class="article__p">
+                        I will try to respond soon as possible. If you don’t receive a response in first 24 hours, please be patient. 
+                        I will get back to you soon, your inquiry will be red and answered! Thank you!
+                    </p>
+                </div>    
+            </div>    
+        </section>
+    </div>
     </main>   
       <footer id="section-contact" 
                class="footer section__container section__container--gray-line footer--color-dark">
@@ -166,6 +231,9 @@
           </p>
          </section>
       </footer>   
+      <script async defer
+  src="https://maps.googleapis.com/maps/api/js?AIzaSyBe9IU0gbjDy55lafgcnnUY02MZ8LHUO1U&callback=initMap">
+</script>
      <script src="JS/js-app.js"></script>   
 </body>
 
