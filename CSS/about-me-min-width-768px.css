@@ -2,20 +2,46 @@
 
     .content {
         display: flex;
-        justify-content: space-evenly;
+        padding: 2rem;
     }
 
     .content--max-width {
         padding-top: 0.5rem;
     }
+     
+    .article-content {
+        margin: 0;
+    }
 
     .content__img,
-    .article-content {
-        width: 50%;
+    section.content > article {
+        width: 100%;
+    }
+
+    section.content > article {
+        margin-bottom: 0;
+        padding: 0;
     }
 
     .content__img {
-        padding: 0 0 0 2rem;
+        padding: 0;
     }
+
+    .content__img-item {
+        margin-top: 0;
+        width: 75%;
+    }
+
+    .article__p {
+        margin-top: 0;
+    }
+
+    .article--two-row {
+        columns: 2;
+        column-gap: 3rem;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+    }
+
 
 }

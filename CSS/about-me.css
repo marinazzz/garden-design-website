@@ -36,23 +36,24 @@
 .content__img {
     width: auto;
     padding: 0 2rem;
+    text-align: center;
 }
 
 .content__img-item {
-    width: 100%;
-    margin-top: 4rem;
-    display: block;
-    border-radius: 0.5rem;
+    width: 60%;
+    margin-top: 1rem;
 }
 
-/*headings*/
 
-.article__h2 {
-    padding: 2rem 0;
+/*slider*/
+
+.section-awards .glide {
+    padding: 0 0 0 0;
 }
 
-/*paragraphs*/
-
-.article__p {
-    padding-bottom: 2rem;
+.section-awards {
+    margin-bottom: 4rem;
+    border-bottom: lightgray 0.1rem solid;
+    border-top: lightgray 0.1rem solid;
 }
+

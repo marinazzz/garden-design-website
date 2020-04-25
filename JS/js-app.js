@@ -43,4 +43,23 @@ document.addEventListener('DOMContentLoaded', function () {
     gap: 0
   });
   awardsSlider.mount();
+
+  let aboutSlider = new Glide("section.section-awards.section__container > div", {
+    type: 'carousel',
+    autoplay: true,
+    perView: 5,
+    autoplay: 1000,
+    animationDuration: 2000,
+    breakpoints: {
+      768: {
+        perView: 4
+      },
+      500: {
+        perView: 3
+      },
+    },
+    gap: 0
+  });
+  aboutSlider.mount();
+  
 });
