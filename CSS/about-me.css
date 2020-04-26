@@ -2,7 +2,7 @@
 /*image*/
 
 .about__image {
-    background-image: url("/images/skisse.jpg");
+    background-image: url("../images/skisse.jpg");
     background-color: #cccccc;
     height: 30rem;
     background-position: center;
