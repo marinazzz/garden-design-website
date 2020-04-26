@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Initialize and add the map
-  function initMap() {
+  /*function initMap() {
     // The location of Oslo
     var oslo = { lat: 59.91273, lng: 10.74609 };
     // The map, centered at Oslo
@@ -80,5 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('map'), { zoom: 4, center: oslo });
     // The marker, positioned at Oslo
     var marker = new google.maps.Marker({ position: oslo, map: map });
-  }
+  }*/
+  
 });

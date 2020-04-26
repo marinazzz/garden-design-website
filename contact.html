@@ -63,13 +63,7 @@
   </header>
   <main>
     <div class="content--max-width section__container--gray-line">
-
       <div id="map"></div>
-      <!--<div class="about__image">
-            <div class="about__text">
-              <h1>MAPA</h1>
-            </div>
-        </div>-->
       <section class="section-info">
         <div class="form-container">
           <form action="form.js" method="post" id="contact-form">
@@ -199,9 +193,17 @@
       </p>
     </section>
   </footer>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?AIzaSyBe9IU0gbjDy55lafgcnnUY02MZ8LHUO1U&callback=initMap">
-    </script>
+  <script>
+    let map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 59.91273, lng: 10.74609},
+        zoom: 7
+      });
+    }
+  </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5zmfl64s1srcdRt7Chiz4IhJXloQaM6w&callback=initMap"
+            type="text/javascript"></script>
   <script src="JS/js-app.js"></script>
 </body>
 
