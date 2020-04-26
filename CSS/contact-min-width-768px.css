@@ -14,12 +14,14 @@
     }
 
     form {
-        width: max-content;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 50%;
     }
 
-    .form-container input,
-    .form-container textarea {
-        width: 50rem;
+    .section-info__item {
+        display: block;
+        flex: 1 1 50%;
     }
 
 
@@ -29,6 +31,10 @@
     
     .section__info-p {
         padding: 4rem 0 0 0;
+    }
+
+    .article__p {
+        margin-top: 0;
     }
 
 

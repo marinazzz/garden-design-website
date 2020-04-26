@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
     mainGlide.mount();
   }
 
-  if (document.querySelector('#header-slider')) {
-    const reviewSlider = new Glide("#review-slider", {
+  if (document.querySelector('#reviews-slider')) {
+    const reviewSlider = new Glide("#reviews-slider", {
       type: 'carousel',
       animationDuration: 1000,
       gap: 0

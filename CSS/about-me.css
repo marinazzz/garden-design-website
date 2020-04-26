@@ -1,3 +1,11 @@
+/*main container padding*/
+
+body > main > .section__container {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: lightgray 0.1rem solid; 
+}
+
 
 /*image*/
 
@@ -45,15 +53,22 @@
 }
 
 
-/*slider*/
+/*text*/
 
-.section-awards .glide {
-    padding: 0 0 0 0;
+.article {
+    padding: 0 2rem; 
 }
 
-.section-awards {
-    margin-bottom: 4rem;
+
+/*slider*/
+
+.section-slider {
     border-bottom: lightgray 0.1rem solid;
     border-top: lightgray 0.1rem solid;
+}
+
+.section-slider .glide {
+    padding: 0 0 0 0;
+    text-align: center;
 }
 
