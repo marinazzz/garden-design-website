@@ -207,15 +207,13 @@
 
 /* SECTION FOOTER-AREA */
 
-.footer__items {
- display: flex;
- justify-content: space-evenly;
- padding: 0;
-}
+  .footer__item--center {
+    margin: 0;
+  }
 
-.footer__item--center {
- margin: 0;
-}
+  .footer__item-h2::after {
+    width: 100%;
+  }
 
 }
 

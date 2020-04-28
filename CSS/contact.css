@@ -1,0 +1,62 @@
+
+/*mapa*/
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+
+/*contact form*/
+
+form,
+.form-container input,
+.form-container textarea,
+.form-container input[type="submit"] {
+    letter-spacing: 0.2rem;
+}
+
+.section-info {
+    padding: 2rem;
+    border-bottom: lightgray 0.1rem solid;
+}
+
+.form__item,
+.form-container input,
+.form-container textarea {
+    border-radius: 0.5rem;
+}
+
+.form__item {
+    display: flex;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container input[type="submit"] {
+    padding: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: 2px solid #e0e0e0;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form__submit {
+    text-align: center;
+}
+
+.form-container input[type="submit"] {
+    width: 10rem;
+    border: 0;
+    background-color: var(--color-main-green);
+    color: white;
+}
+
+

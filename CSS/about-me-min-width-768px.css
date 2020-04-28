@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+
+    .content {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .content--max-width {
+        padding-top: 0.5rem;
+    }
+     
+
+    body > main > .section__container {
+        padding-bottom: 0;
+    }
+
+    .content__img,
+    section.content > article {
+        width: 100%;
+    }
+
+    .content__img {
+        padding: 0;
+    }
+
+    .content__img-item {
+        margin-top: 0;
+        width: 75%;
+    }
+
+    .article__p {
+        margin-top: 0;
+    }
+
+    .article--two-row {
+        columns: 2;
+        column-gap: 3rem;
+        padding-top: 2rem;
+    }
+
+
+}

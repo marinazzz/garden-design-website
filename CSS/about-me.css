@@ -1,0 +1,74 @@
+/*main container padding*/
+
+body > main > .section__container {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: lightgray 0.1rem solid; 
+}
+
+
+/*image*/
+
+.about__image {
+    background-image: url("../images/skisse.jpg");
+    background-color: #cccccc;
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about__image::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+}
+  
+.about__text {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.content__img {
+    width: auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.content__img-item {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+
+/*text*/
+
+.article {
+    padding: 0 2rem; 
+}
+
+
+/*slider*/
+
+.section-slider {
+    border-bottom: lightgray 0.1rem solid;
+    border-top: lightgray 0.1rem solid;
+}
+
+.section-slider .glide {
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
