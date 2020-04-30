@@ -50,7 +50,7 @@ body > section {
 }
 
 
-/*GRID*/
+/*GRID WITH UL LIST*/
 
 
 .content__ul {
@@ -209,6 +209,157 @@ li.list-li:nth-child(23) {
 
 @media screen and (min-width: 768px) {
     .content__ul {
+        grid-gap: 1rem;
+    }
+
+    .article__p {
+        margin-top: 0;
+        padding-top: 1rem;
+    }
+}
+
+
+/*GRID WITH BACKGROUND-IMAGE*/
+
+.portfolio__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1rem);
+    grid-auto-rows: 1rem;
+    grid-gap: 0.2rem;
+    grid-auto-flow: dense;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.portfolio__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*portfolio items - 5 sizes*/
+.item--width-200 {
+    grid-column: 1 / span 20;
+}
+
+.item--width-140 {
+    grid-column: 21 / span 14;
+}
+
+.item--width-340 {
+    grid-column: 1 / span 34;
+}
+
+.item--width-370 {
+    grid-column: 1 / span 37;
+}
+
+.item--width-210 {
+    grid-column: 37 / span 21;
+}
+
+/*each portfolio-item with background-image*/
+
+.item1 {
+    background-image: url("../images/hage-konsultasjon.jpg");
+    grid-row: 1 / span 10;
+}
+
+.item2 {
+    background-image: url("../images/Hagedesign.jpg");
+    grid-row: 1 / span 7;
+}
+
+.item3 {
+    background-image: url("../images/gallery/bd-hagedesign-takhage.jpg");
+    grid-row: 11 / span 13;
+}
+
+.item4 {
+    background-image: url("../images/person-holding-black-pen-1109541.jpg");
+    grid-row: 8 / span 7;
+}
+
+.item5 {
+    background-image: url("../images/review-picture1.jpg");
+    grid-row: 15 / span 9;
+}
+
+.item6 {
+    background-image: url("../images/gallery/bd-hagedesign-utekjøkken.jpg");
+    grid-row: 24 / span 22;
+}
+
+.item7 {
+    background-image: url("../images/gallery/bench-blur-books-459791.jpg");
+    grid-row: 46 / span 13;
+}
+
+.item8 {
+    background-image: url("../images/gallery/bloom-blossom-decoration-701758.jpg");
+    grid-row: 46 / span 8;
+}
+
+.item9 {
+    background-image: url("../images/review-picture2.jpg");
+    grid-row: 59 / span 13;
+}
+
+.item10 {
+    background-image: url("../images/gallery/blur-branch-bright-156925.jpg");
+    grid-row: 54 / span 9;
+}
+
+.item11 {
+    background-image: url("../images/gallery/architecture-color-empty-136097.jpg");
+    grid-row: 63 / span 9;
+}
+
+.item12 {
+    background-image: url("../images/gallery/bd-hagedesign-terrasse med belysning.jpg");
+    grid-row: 72 / span 22;
+}
+
+.item13 {
+    background-image: url("../images/gallery/abstract-brick-bricks-207204.jpg");
+    grid-row: 94/ span 14;
+}
+
+.item14 {
+    background-image: url("../images/gallery/StockSnap_WZ5U4UOY7D.jpg");
+    grid-row: 94 / span 7;
+}
+
+.item15 {
+    background-image: url("../images/gallery/StockSnap_RI9IHYV4GX.jpg");
+    grid-row: 101 / span 7;
+}
+
+.item16 {
+    background-image: url("../images/gallery/StockSnap_ISYS0X4U49.jpg");
+    grid-row: 108/ span 14;
+}
+
+.item17 {
+    background-image: url("../images/gallery/StockSnap_77AD8564CC.jpg");
+    grid-row: 108 / span 7;
+}
+
+.item18 {
+    background-image: url("../images/gallery/StockSnap_0EJ2YK6OPQ.jpg");
+    grid-row: 115 / span 7;
+}
+
+.item19 {
+    background-image: url("../images/gallery-photo3-1000.jpg");
+    grid-row: 122 / span 22;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio__items {
         grid-gap: 1rem;
     }
 
