@@ -64,25 +64,26 @@
       <div id="map"></div>
       <section class="section-info">
         <div class="form-container">
-          <form action="form.js" method="post" id="contact-form">
+          <form id="contact-form" action="JS/js-app.js" method="post" >
             <h2 class="article__h2">Kontakt</h2>
+            <div class="feedback"></div>
             <div class="form__item">
-              <input type="text" class="input" id="navn" placeholder="Navn">
+              <input id="navn" name="name" type="text" class="input"  placeholder="Navn">
             </div>
             <div class="form__item">
-              <input type="email" class="input" id="epost" placeholder="E-post">
+              <input id="epost" name="email" type="email" class="input"  placeholder="E-post">
             </div>
             <div class="form__item">
-              <input type="tel" class="input" id="telefon" placeholder="Telefon">
+              <input id="telefon" name="phone" type="tel" class="input"  placeholder="Telefon">
             </div>
             <div class="form__item">
-              <input type="text" class="input" id="sted" placeholder="Sted">
+              <input id="sted" name="city" type="text" class="input"  placeholder="Sted">
             </div>
             <div class="form__item">
-              <textarea id="beskjed" cols="30" rows="10" placeholder="Beskjed"></textarea>
+              <textarea id="beskjed" name="text" cols="30" rows="10" placeholder="Beskjed"></textarea>
             </div>
             <div class="form__submit">
-              <input type="submit" value="send">
+              <input name="submit" type="submit" value="send">
             </div>
           </form>
         </div>

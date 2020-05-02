@@ -70,15 +70,70 @@ document.addEventListener('DOMContentLoaded', function () {
     aboutSlider.mount();
   }
 
-  // Initialize and add the map
-  /*function initMap() {
-    // The location of Oslo
-    var oslo = { lat: 59.91273, lng: 10.74609 };
-    // The map, centered at Oslo
-    var map = new google.maps.Map(
-      document.getElementById('map'), { zoom: 4, center: oslo });
-    // The marker, positioned at Oslo
-    var marker = new google.maps.Marker({ position: oslo, map: map });
-  }*/
+ //FORM VALIDATION
+
+  const form = document.getElementById('contact-form');
+  const feedback = document.querySelector('.feedback');
+
+  //regexp for validation
+  const namePattern = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
+  const emailValid = /^[a-zA-Z0-9_.+-]+@(?:(?:[a-zA-Z0-9-]+\.)?[a-zA-Z]+\.)?(domain|domain2)\.com$/;
+  const phoneValid = /^(0047|\+47|47)?[2-9]\d{7}$/;
+  const cityValid = /^([a-zA-Z\u0080-\u024F]+(?:. |-| |'))*[a-zA-Z\u0080-\u024F]*$/;
+  const textLenght = /^\s*(?:\S\s*){10,100}$/;
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    //name validation
+    const name = form.name.value;
+
+    if (namePattern.test(name)) {
+      // feedback good info
+      return true;
+    } else {
+      //fedback help
+      feedback.textContent = 'Name must contain letters only!';
+    }
+    
+    //email validation
+    const email = form.email.value;
+
+    if (emailValid.test(email)) {
+      return true;
+    } else {
+      feedback.textContent = 'You have entered an invalid email address!';
+    }
+
+    //phone validation
+    const phone = form.phone.value;
+
+    if (phoneValid.test(phone)) {
+      return true;
+    } else {
+      feedback.textContent = 'You have entered an invalid phone number!';
+    }
+
+    //city validation
+    const city = form.city.value;
+
+    if (cityValid.test(city)) {
+      return true;
+    } else {
+      feedback.textContent = 'You have entered an invalid city name!';
+    }
+
+    //text area max 100 characters
+    const text = form.text.value;
+
+    if (textLenght.test(text)) {
+      return true;
+    } else {
+      feedback.textContent = 'Your text must be 100 characters or less!';
+    }
+       
+  });
+
+
   
 });

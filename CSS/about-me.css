@@ -12,7 +12,7 @@ body > main > .section__container {
 .about__image {
     background-image: url("../images/skisse.jpg");
     background-color: #cccccc;
-    height: 30rem;
+    height: 40rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
