@@ -29,6 +29,18 @@ form,
 
 .form__item {
     display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 1.5rem;
+}
+
+.form__item .feedback {
+  display: none;
+  color: #fd6363;
+  font-size: 1.4rem;
+}
+
+.form__item .feedback.show {
+  display: block;
 }
 
 .form-container input,

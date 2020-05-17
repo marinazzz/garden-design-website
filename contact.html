@@ -64,26 +64,30 @@
       <div id="map"></div>
       <section class="section-info">
         <div class="form-container">
-          <form id="contact-form" action="JS/js-app.js" method="post" >
+          <form id="contact-form">
             <h2 class="article__h2">Kontakt</h2>
-            <div class="feedback"></div>
             <div class="form__item">
-              <input id="navn" name="name" type="text" class="input"  placeholder="Navn">
+              <input id="navn" name="name" type="text" class="input" placeholder="Navn" />
+              <div class="feedback">Name must contain letters only!</div>
             </div>
             <div class="form__item">
-              <input id="epost" name="email" type="email" class="input"  placeholder="E-post">
+              <input id="epost" name="email" type="email" class="input" placeholder="E-post" />
+              <div class="feedback">You have entered an invalid email address!</div>
             </div>
             <div class="form__item">
-              <input id="telefon" name="phone" type="tel" class="input"  placeholder="Telefon">
+              <input id="telefon" name="phone" type="tel" class="input" placeholder="Telefon" />
+              <div class="feedback">You have entered an invalid phone number!</div>
             </div>
             <div class="form__item">
-              <input id="sted" name="city" type="text" class="input"  placeholder="Sted">
+              <input id="sted" name="city" type="text" class="input" placeholder="Sted" />
+              <div class="feedback">You have entered an invalid city name!</div>
             </div>
             <div class="form__item">
               <textarea id="beskjed" name="text" cols="30" rows="10" placeholder="Beskjed"></textarea>
+              <div class="feedback">Your text must be 100 characters or less!</div>
             </div>
             <div class="form__submit">
-              <input name="submit" type="submit" value="send">
+              <input name="submit" type="submit" value="send" />
             </div>
           </form>
         </div>
@@ -196,13 +200,13 @@
     let map;
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 59.91273, lng: 10.74609},
+        center: { lat: 59.91273, lng: 10.74609 },
         zoom: 7
       });
     }
   </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5zmfl64s1srcdRt7Chiz4IhJXloQaM6w&callback=initMap"
-            type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5zmfl64s1srcdRt7Chiz4IhJXloQaM6w&callback=initMap"
+    type="text/javascript"></script>
   <script src="JS/js-app.js"></script>
 </body>
 
